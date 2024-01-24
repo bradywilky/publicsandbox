@@ -21,19 +21,30 @@ def get_current_weather_widget():
 
     return html.Div(
         id='weather-widget',
+        style={
+            'margin': '20px',
+            'width': '300px',            # Sets the width of the box
+            'height': '300px',           # Sets the height of the box            
+            'backgroundColor': 'rgb(240, 240, 240)',
+            'border-radius': '15px', 
+            'display': 'flex',
+            'flex-direction': 'column',
+            'alignItems': 'center',            
+        },
         children=[
-            html.P(current_weather_dict['location'], style={'fontFamily': 'Roboto', 'fontSize': 20, 'marginTop': '5px', 'marginBottom': '5px'}),
-            html.P(current_weather_dict['temperature'], style={'fontFamily': 'Roboto', 'fontSize': 80, 'marginTop': '5px','marginBottom': '5px'}),
-            html.P(f"{current_weather_dict['description']}, wind {current_weather_dict['wind']}", style={'fontFamily': 'Roboto', 'fontSize': 20, 'marginTop': '5px','marginBottom': '5px'}),
+            html.P(current_weather_dict['location'], style={'fontSize': 20, 'marginTop': '5px', 'marginBottom': '5px'}),
+            html.P(current_weather_dict['temperature'], style={'fontSize': 100, 'marginTop': '5px','marginBottom': '5px'}),
+            html.P(current_weather_dict['description'], style={'fontSize': 20, 'marginTop': '5px','marginBottom': '10px'}),
+            html.P(current_weather_dict['wind'], style={'fontSize': 20, 'marginTop': '5px','marginBottom': '16px'}),
             html.Div(
-                style={'display': 'flex', 'alignItems': 'center'},  # Use flexbox for horizontal alignment
+                style={'display': 'flex', 'flex-direction': 'row',},  # Use flexbox for horizontal alignment
                 children=[
-                    html.Img(src="/assets/static/sunset.png", style={'width': '4%', 'height': '4%', 'marginRight': '5px'}),
-                    html.P(f"{current_weather_dict['sunset']}", style={'fontFamily': 'Roboto', 'fontSize': 20, 'marginTop': '0px', 'marginBottom': '0px'}),
+                    html.Img(src="/assets/static/sunset.png", style={'width': '15%', 'height': '100%',}),
+                    html.Div(current_weather_dict['sunset'], style={'fontSize': 20, 'width': '80px',}),
                 ]
             ),                        
         ],
-        style={'margin-left': '20px', 'fontFamily': 'Roboto'}
+        
     )
     
     
@@ -158,7 +169,19 @@ def get_daily_weather_widget():
     
 def get_weather_widget():
     return html.Div(
-        style={'display': 'flex', 'flex-direction': 'column',},
+        style={
+
+            'border': '1px solid black',  # Creates a border around the div
+            'padding': '20px',           # Adds some space inside the box around the text
+            'margin': '10px',            # Adds space outside the box
+            'width': '950px',            # Sets the width of the box
+            'height': '700px',           # Sets the height of the box
+            'box-shadow': '2px 2px 2px lightgrey',  # Optional: adds a shadow effect
+            'border-radius': '15px', # rounds corners
+            'backgroundColor': 'white',
+            'display': 'flex',
+            'flex-direction': 'column',
+        },
         children=[
 
             html.Div(
@@ -171,4 +194,3 @@ def get_weather_widget():
             get_daily_weather_widget(),            
         ]
     )
-  
