@@ -1,0 +1,14 @@
+.rotate-90 {
+    transform: rotate(90deg);
+    transform-origin: center;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    transform-origin: center;
+}
+
+.rotate-270 {
+    transform: rotate(270deg);
+    transform-origin: center;
+}

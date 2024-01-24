@@ -1,0 +1,66 @@
+<html><body><p>Longwood University
+2023 Baseball Schedule
+
+Overall    0-0  .000
+Conference 0-0  .000
+Streak     
+Home       0-0
+Away       0-0
+Neutral    0-0
+
+Date           Time      At     Opponent                                 Location              Tournament   Result
+Feb 17 (Fri)   4 p.m.    Home   Mount St. Mary's (Md.)                   Farmville, Va                            
+Feb 18 (Sat)   2 p.m.    Home   Mount St. Mary's (Md.)                   Farmville, Va                            
+Feb 19 (Sun)   1 p.m.    Home   Mount St. Mary's (Md.)                   Farmville, Va                            
+Feb 21 (Tue)   TBD       Away   University of Virginia                   Charlottesville, VA                      
+Feb 22 (Wed)   TBD       Away   University of North Carolina             Chapel Hill, NC                          
+Feb 24 (Fri)   4 p.m.    Home   Delaware State University                Farmville, Va                            
+Feb 25 (Sat)   2 p.m.    Home   Delaware State University                Farmville, Va                            
+Feb 26 (Sun)   1 p.m.    Home   Delaware State University                Farmville, Va                            
+Feb 28 (Tue)   TBD       Away   North Carolina State University          Raleigh, NC                              
+Mar 1 (Wed)    4 p.m.    Away   Liberty University                       Lynchburg, VA                            
+Mar 3 (Fri)    7 p.m.    Away   Bethune-Cookman University               Daytona Beach, FL                        
+Mar 4 (Sat)    6 p.m.    Away   Bethune-Cookman University               Daytona Beach, FL                        
+Mar 5 (Sun)    1 p.m.    Away   Bethune-Cookman University               Daytona Beach, FL                        
+Mar 7 (Tue)    4 p.m.    Away   College of Charleston                    Charleston, SC                           
+Mar 8 (Wed)    4 p.m.    Away   College of Charleston                    Charleston, SC                           
+Mar 10 (Fri)   4 p.m.    Home   Iona University                          Farmville, Va                            
+Mar 11 (Sat)   12 p.m.   Home   Iona University                          Farmville, Va                            
+Mar 12 (Sun)   1 p.m.    Home   Iona University                          Farmville, Va                            
+Mar 15 (Wed)   6 p.m.    Home   University of Richmond                   Farmville, Va                            
+Mar 17 (Fri)   6 p.m.    Away   Gardner-Webb University                  Boiling Springs, NC                      
+Mar 18 (Sat)   3 p.m.    Away   Gardner-Webb University                  Boiling Springs, NC                      
+Mar 19 (Sun)   1 p.m.    Away   Gardner-Webb University                  Boiling Springs, NC                      
+Mar 21 (Tue)   TBD       Away   Virginia Commonwealth University         Richmond, VA                             
+Mar 24 (Fri)   5 p.m.    Away   UNC Asheville                            Asheville, NC                            
+Mar 25 (Sat)   3 p.m.    Away   UNC Asheville                            Asheville, NC                            
+Mar 26 (Sun)   1 p.m.    Away   UNC Asheville                            Asheville, NC                            
+Mar 28 (Tue)   TBD       Away   University of Richmond                   Richmond, VA                             
+Mar 29 (Wed)   6 p.m.    Home   George Mason University                  Farmville, Va                            
+Mar 31 (Fri)   6 p.m.    Home   High Point University                    Farmville, Va                            
+Apr 1 (Sat)    2 p.m.    Home   High Point University                    Farmville, Va                            
+Apr 2 (Sun)    1 p.m.    Home   High Point University                    Farmville, Va                            
+Apr 4 (Tue)    TBD       Away   Norfolk State University                 Norfolk, VA                              
+Apr 6 (Thu)    TBD       Away   University of South Carolina - Upstate   Spartanburg, SC                          
+Apr 7 (Fri)    TBD       Away   University of South Carolina - Upstate   Spartanburg, SC                          
+Apr 8 (Sat)    TBD       Away   University of South Carolina - Upstate   Spartanburg, SC                          
+Apr 11 (Tue)   TBD       Away   George Mason University                  Fairfax, VA                              
+Apr 14 (Fri)   6 p.m.    Home   Campbell University                      Farmville, Va                            
+Apr 15 (Sat)   2 p.m.    Home   Campbell University                      Farmville, Va                            
+Apr 16 (Sun)   1 p.m.    Home   Campbell University                      Farmville, Va                            
+Apr 18 (Tue)   6 p.m.    Home   Norfolk State University                 Farmville, Va                            
+Apr 21 (Fri)   TBD       Away   Charleston Southern University           Charleston, SC                           
+Apr 22 (Sat)   TBD       Away   Charleston Southern University           Charleston, SC                           
+Apr 23 (Sun)   TBD       Away   Charleston Southern University           Charleston, SC                           
+Apr 28 (Fri)   6 p.m.    Home   Radford University                       Farmville, Va                            
+Apr 29 (Sat)   2 p.m.    Home   Radford University                       Farmville, Va                            
+Apr 30 (Sun)   1 p.m.    Home   Radford University                       Farmville, Va                            
+May 7 (Sun)    TBD       Away   Duke University                          Durham, NC                               
+May 9 (Tue)    6 p.m.    Home   Virginia Commonwealth University         Farmville, Va                            
+May 12 (Fri)   TBD       Away   Presbyterian College                     Clinton, SC                              
+May 13 (Sat)   TBD       Away   Presbyterian College                     Clinton, SC                              
+May 14 (Sun)   TBD       Away   Presbyterian College                     Clinton, SC                              
+May 18 (Thu)   6 p.m.    Home   Winthrop University                      Farmville, Va                            
+May 19 (Fri)   6 p.m.    Home   Winthrop University                      Farmville, Va                            
+May 20 (Sat)   2 p.m.    Home   Winthrop University                      Farmville, Va                            
+Jun 4 (Sun)    TBD       Home   Big South Conference Tournament          TBD</p></body></html>

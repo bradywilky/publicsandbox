@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>i-Boating : Free Marine Navigation Charts &amp; Fishing Maps</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
+<link href="blc-maps.css?rand=1662595292" rel="stylesheet"/>
+<style>
+        body { margin: 0; padding: 0; }
+        html, body, #map { height: 100%; touch-action:none;}
+	@media print { body { visibility: hidden; display: none} }
+    </style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34561899-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<meta content="app-id=994992062, affiliate-data=smartbanner" name="apple-itunes-app"/>
+</head>
+<body>
+<div id="map"></div>
+<div id="blc_map_loading_div" style="position:absolute;top:0;left:0;background:rgba(0,0,0,0.7);width:100%;height:100%;">
+<div style="margin:auto;width:50%;height:50%; border: 3px solid green;background:#FFFFFF;"><p id="blc_map_loading_div_p" style="font-size:2em;font-weight:bold">Online chart viewer is loading. Please wait...</p></div>
+</div>
+<script src="blc-maps.js?rand=1662595292"></script>
+<script>
+window.onload = function() {
+	create_map_object();
+}
+function create_map_object() {
+var styleUrl = 'https://fishing-app.gpsnauticalcharts.com/i-boating-fishing-web-app/emdec_web.json?rand=1662595292';
+var options =
+{
+    container: 'map',
+    zoom: 12.5,
+    center: [-122.3889607,37.8115202],
+    style: styleUrl,
+    embedded_in_binding: false,
+    disttool:true,
+    style_encrypted:true,
+    enable_object_query:true,
+    enable_upgrade_to_pro:true,
+    enable_check_gl_support:true,
+    enable_menu_control:true,
+    enable_show_map_loading:true,
+    enable_tokens:true,
+    apply_params_from_url:true,
+    hash:true
+}
+var obj = {"type":"create_map_object", "options":options};
+var map = mapboxgl.external_to_js.callFromExternalBinding(JSON.stringify(obj));
+
+}
+</script>
+<noscript>The online chart viewer requires javascript. Once enabled you can view lake depth contour maps, electronic navigation charts (ENCs) in your browser. Tap icon on lower right for distance bearing tool. You can change depth unit or use satellite overlay under settings on top left</noscript>
+</body>
+</html>

@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html lang="en" class="internal-page no-js ie8" prefix="og: http://ogp.me/ns#"> <![endif]--><!--[if IE 9 ]>    <html lang="en" class="internal-page no-js ie9" prefix="og: http://ogp.me/ns#"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html class="internal-page no-js" lang="en" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=5" name="viewport"/>
+<title>2023 EMU Baseball Schedule - Eastern Mennonite</title>
+<link href="https://www.emuroyals.com/sports/bsb/2022-23/schedule" rel="canonical"/>
+<meta content="280467664480" property="fb:app_id"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="2023 EMU Baseball Schedule" property="og:title"/>
+<meta content="2023 EMU Baseball Schedule" property="dcterms.title"/>
+<meta content="2023 EMU Baseball Schedule" property="og:description"/>
+<meta content="2023 EMU Baseball Schedule" property="dcterms.description"/>
+<meta content="https://www.emuroyals.com/images/setup/thumbnail_default.jpg?max_width=1200&amp;max_height=675" property="og:image"/>
+<meta content="Eastern Mennonite thumbnail" property=" og:image:alt"/>
+<meta content="Eastern Mennonite" property="og:site_name"/>
+<meta content="https://www.emuroyals.com/sports/bsb/2022-23/schedule" property="og:url"/>
+<meta content="https://www.emuroyals.com/sports/bsb/2022-23/schedule" property="dcterms.identifier"/>
+<meta content="website" property="og:type"/>
+<script src="https://cdn.prestosports.com/action/cdn/info/jquery.js"></script>
+<script src="https://cdn.prestosports.com/action/cdn/info/modernizr.js"></script>
+<link href="/info/boilerplate.css" rel="stylesheet" type="text/css"/>
+<link href="/css/styles.css?t=1675396402616" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2018737-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- no rum header -->
+<link href="/info/schedule-styles.css" rel="StyleSheet" type="text/css"/>
+</head>
+<body>
+<div class="page clearfix" id="page">
+<div class="wrapper clearfix">
+<div class="nav-corona clearfix" data-module="nav" role="menubar">
+<div class="clearfix">
+<ul class="clearfix" role="menu">
+<li>
+<a href="https://emu.edu/coronavirus/fall-faq#athletics" target="_blank">EMU COVID-19 INFO</a>
+</li>
+</ul>
+</div>
+</div>
+<script async="" data-uid="UA-1939879-1" src="/info/ga/include.js" type="text/javascript"></script>
+<header class="site-header" role="banner">
+<a class="skip-navigation" href="#mainbody">skip navigation</a>
+<div class="container clearfix">
+<h1 class="site-title"><a href="/">Eastern Mennonite</a></h1>
+<div class="mobile-menu-bar clearfix">
+<ul class="clearfix">
+<li><a href="/composite"><span aria-hidden="true" class="gicon-calendar"></span> <span class="text">Composite</span></a></li>
+<li><a href="/search"><span aria-hidden="true" class="gicon-search"></span> <span class="text">Search</span></a></li>
+<li><a href="#" id="jump-to-nav"><span aria-hidden="true" class="gicon-menu"></span> <span class="text">Menu</span></a></li>
+</ul>
+</div>
+<nav class="dropnav" data-activate-on="hover" data-module="dropnav" id="nav">
+<div class="offscreen">Site Navigation</div>
+<ul class="clearfix" role="menubar">
+<li class="nav nav1 has-submenu" data-follow-link="false">
+<a class="nav-link" href="/navbar-sports-dropdown">Sports</a>
+<div class="submenu level1 clearfix" id="submenu1">
+<ul class="clearfix" role="menu">
+<li class="has-submenu" data-follow-link="false">
+<a aria-label="Sports: Men's Sports" href="/navbar-men-dropdown">Men's Sports</a>
+<div class="submenu level2 clearfix">
+<ul class="clearfix" role="menu">
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Men's Sports: Baseball" href="/sports/bsb/index">Baseball</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Men's Sports: Baseball: Schedule" href="/sports/bsb/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Men's Sports: Baseball: Roster" href="/sports/bsb/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Men's Sports: Baseball: Stats" href="https://www.emuroyals.com/sports/bsb/2022-23/teams/eastmennonite?view=profile">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Men's Sports: Basketball" href="/sports/mbkb/index">Basketball</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Men's Sports: Basketball: Schedule" href="/sports/mbkb/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Men's Sports: Basketball: Roster" href="/sports/mbkb/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Men's Sports: Basketball: Stats" href="/sports/mbkb/2022-23/players">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Men's Sports: Cross Country" href="/sports/mxc/index">Cross Country</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Men's Sports: Cross Country: Schedule" href="/sports/mxc/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Men's Sports: Cross Country: Roster" href="/sports/mxc/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Men's Sports: Cross Country: Stats" href="https://xc.tfrrs.org/teams/xc/VA_college_m_Eastern_Mennonite.html" target="_blank">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Men's Sports: Disc Golf" href="/sports/disc-golf/index">Disc Golf</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Men's Sports: Disc Golf: Schedule" href="/sports/disc-golf/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Men's Sports: Disc Golf: Roster" href="/sports/disc-golf/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Men's Sports: Disc Golf: News" href="/sports/disc-golf/2022-23/news">News</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Men's Sports: Soccer" href="/sports/msoc/index">Soccer</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Men's Sports: Soccer: Schedule" href="/sports/msoc/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Men's Sports: Soccer: Roster" href="/sports/msoc/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Men's Sports: Soccer: Stats" href="/sports/msoc/2022-23/teams/eastmennonite">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Men's Sports: Track &amp; Field" href="/sports/mtrack/index">Track &amp; Field</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Men's Sports: Track &amp; Field: Schedule" href="/sports/mtrack/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Men's Sports: Track &amp; Field: Roster" href="/sports/mtrack/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Men's Sports: Track &amp; Field: Stats" href="https://www.tfrrs.org/teams/VA_college_m_Eastern_Mennonite.html" target="_blank">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Men's Sports: Volleyball" href="/sports/mvball/index">Volleyball</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Men's Sports: Volleyball: Schedule" href="/sports/mvball/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Men's Sports: Volleyball: Roster" href="/sports/mvball/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Men's Sports: Volleyball: Stats" href="/sports/mvball/2021-22/teams">Stats</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="false">
+<a aria-label="Sports: Women's Sports" href="/navbar-women-dropdown">Women's Sports</a>
+<div class="submenu level2 clearfix">
+<ul class="clearfix" role="menu">
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Basketball" href="/sports/wbkb/index">Basketball</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Basketball: Schedule" href="/sports/wbkb/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Basketball: Roster" href="/sports/wbkb/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Basketball: Stats" href="/sports/wbkb/2022-23/players">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Cross Country" href="/sports/wxc/index">Cross Country</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Cross Country: Schedule" href="/sports/wxc/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Cross Country: Roster" href="/sports/wxc/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Cross Country: Stats" href="https://xc.tfrrs.org/teams/xc/VA_college_f_Eastern_Mennonite.html" target="_blank">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Field Hockey" href="/sports/fh/index">Field Hockey</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Field Hockey: Schedule" href="/sports/fh/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Field Hockey: Roster" href="/sports/fh/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Field Hockey: Stats" href="/sports/fh/2022-23/teams/eastmennonite">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Lacrosse" href="/sports/wlax/index">Lacrosse</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Lacrosse: Schedule" href="/sports/wlax/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Lacrosse: Roster" href="/sports/wlax/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Lacrosse: Stats" href="/sports/wlax/2022-23/teams/eastmennonite">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Soccer" href="/sports/wsoc/index">Soccer</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Soccer: Schedule" href="/sports/wsoc/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Soccer: Roster" href="/sports/wsoc/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Soccer: Stats" href="/sports/wsoc/2022-23/teams/eastmennonite">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Softball" href="/sports/sball/index">Softball</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Softball: Schedule" href="/sports/sball/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Softball: Roster" href="/sports/sball/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Softball: Stats" href="/sports/sball/2022-23/teams/eastmennonite">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Track &amp; Field" href="/sports/wtrack/index">Track &amp; Field</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Track &amp; Field: Schedule" href="/sports/wtrack/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Track &amp; Field: Roster" href="/sports/wtrack/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Track &amp; Field: Stats" href="https://www.tfrrs.org/teams/VA_college_f_Eastern_Mennonite.html" target="_blank">Stats</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Triathlon" href="/sports/wtri/index">Triathlon</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Triathlon: Schedule" href="/sports/wtri/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Triathlon: Roster" href="/sports/wtri/2022-23/roster">Roster</a></li>
+</ul>
+</div>
+</li>
+<li class="has-submenu" data-follow-link="true">
+<a aria-label="Sports: Women's Sports: Volleyball" href="/sports/wvball/index">Volleyball</a>
+<div class="submenu level3 clearfix">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Sports: Women's Sports: Volleyball: Schedule" href="/sports/wvball/2022-23/schedule">Schedule</a></li>
+<li><a aria-label="Sports: Women's Sports: Volleyball: Roster" href="/sports/wvball/2022-23/roster">Roster</a></li>
+<li><a aria-label="Sports: Women's Sports: Volleyball: Stats" href="/sports/wvball/2022-23/teams/eastmennonite">Stats</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="nav nav2 has-submenu" data-follow-link="false">
+<a class="nav-link" href="/navbar-information">Inside Athletics</a>
+<div class="submenu level1 clearfix" id="submenu2">
+<ul class="clearfix" role="menu">
+<li><a aria-label="Inside Athletics: Staff Directory" href="/information/directory/index">Staff Directory</a></li>
+<li><a aria-label="Inside Athletics: Athletic Training" href="/information/at/index">Athletic Training</a></li>
+<li><a aria-label="Inside Athletics: Camps and Clinics" href="/information/summer/index">Camps and Clinics</a></li>
+<li><a aria-label="Inside Athletics: EADA Report" href="/information/eadareport/index">EADA Report</a></li>
+<li><a aria-label="Inside Athletics: Facilities" href="/information/facilities/Facilities">Facilities</a></li>
+<li><a aria-label="Inside Athletics: General News" href="/information/generalnews/2011-12/index">General News</a></li>
+<li><a aria-label="Inside Athletics: Hall of Honor" href="/hallofhonor/index">Hall of Honor</a></li>
+<li><a aria-label="Inside Athletics: Herm (EMU's Mascot)" href="http://www.emu.edu/herm/" target="_blank">Herm (EMU's Mascot)</a></li>
+<li><a aria-label="Inside Athletics: Homecoming" href="https://www.emu.edu/homecoming/" target="_blank">Homecoming</a></li>
+<li><a aria-label="Inside Athletics: Media Information" href="/information/sid/Media_Information">Media Information</a></li>
+</ul><ul class="clearfix">
+<li><a aria-label="Inside Athletics: News Archive" href="http://www.emuroyals.com/landing/headlines-featured">News Archive</a></li>
+<li><a aria-label="Inside Athletics: Philosophy" href="/information/philosophy/index">Philosophy</a></li>
+<li><a aria-label="Inside Athletics: Quick Facts" href="/information/quickfacts/index">Quick Facts</a></li>
+<li><a aria-label="Inside Athletics: Royals in the News" href="/information/royalsnews/index">Royals in the News</a></li>
+<li><a aria-label="Inside Athletics: Royal Report" href="/information/royalreport/index">Royal Report</a></li>
+<li><a aria-label="Inside Athletics: SAAC" href="/information/saac/index">SAAC</a></li>
+<li><a aria-label="Inside Athletics: Schedule" href="/composite">Schedule</a></li>
+<li><a aria-label="Inside Athletics: Spectator Information" href="https://emuroyals.com/general/2021-22/releases/20211111myc8vw">Spectator Information</a></li>
+<li><a aria-label="Inside Athletics: Team Stores" href="/teamstores/index">Team Stores</a></li>
+<li><a aria-label="Inside Athletics: Video Streaming" href="https://odacsn.com/emuroyals/" target="_blank">Video Streaming</a></li>
+</ul><ul class="clearfix">
+<li><a aria-label="Inside Athletics: Yoder Golf Classic" href="https://www.emuroyals.com/general/2022-23/releases/20220826fbbtkm">Yoder Golf Classic</a></li>
+</ul>
+</div>
+</li>
+<li class="nav nav3"><a class="nav-link" href="/recruits/index">Recruits</a></li>
+<li class="nav nav4"><a class="nav-link" href="/royalsclub/index">Royals Club</a></li>
+<li class="nav nav5"><a class="nav-link" href="https://app.mobilecause.com/form/lcR8nA?vid=lgso8" target="_blank">Give</a></li>
+<li class="nav nav6"><a class="nav-link" href="/search">Search</a></li>
+</ul>
+<div class="none close">Close</div></nav>
+<div class="edu-nav clearfix" data-module="nav" role="menubar">
+<div class="clearfix">
+<ul class="clearfix" role="menu">
+<li>
+<a href="https://www.emu.edu/" target="_blank">EMU HOME</a>
+</li>
+<li>
+<a href="http://www.emu.edu/map/" target="_blank">MAPS</a>
+</li>
+<li>
+<a href="/information/directory/index">ATHLETICS DIRECTORY</a>
+</li>
+</ul>
+</div>
+</div>
+<script async="" data-uid="UA-1939879-1" src="/info/ga/include.js" type="text/javascript"></script>
+</div>
+</header>
+<div class="secondary-nav clearfix" data-module="nav" role="menubar">
+<div class="clearfix">
+<h1>Baseball</h1>
+<ul class="clearfix" role="menu">
+<li>
+<a href="/sports/bsb/index">Home</a>
+</li>
+<li>
+<a href="/sports/bsb/2022-23/roster">Roster</a>
+</li>
+<li class="has-nav">
+<a href="/sports/bsb/2022-23/schedule">Schedule/Results</a>
+<ul class="clearfix" role="menu">
+<li>
+<a href="/sports/bsb/2021-22/schedule">Varsity Schedule</a>
+</li>
+<li>
+<a href="/sports/bsb/2021-22jv/schedule">Developmental Schedule</a>
+</li>
+</ul>
+<script async="" data-uid="UA-1939879-1" src="/info/ga/include.js" type="text/javascript"></script>
+</li>
+<li>
+<a href="/sports/bsb/2022-23/teams/eastmennonite">Statistics</a>
+</li>
+<li class="has-nav more"><a aria-label="press tab to read additional links" role="button" tabindex="0">More+</a>
+<ul class="clearfix">
+<li>
+<a href="/sports/bsb/coaches/index">Coaches</a>
+</li>
+<li>
+<a href="/sports/bsb/records.pdf">Record Book</a>
+</li>
+<li>
+<a href="/sports/bsb/2022-23/news">News</a>
+</li>
+<li>
+<a href="/sports/bsb/developmental">Developmental Schedule</a>
+</li>
+<li>
+<a href="/sports/bsb/archive">Archives</a>
+</li>
+<li>
+<a href="/sports/bsb/recruiting-form">Recruits</a>
+</li>
+<li>
+<a href="https://www.adamposeybaseballcamps.com/" target="_blank">Camps</a>
+</li>
+<li>
+<a href="https://www.frontrush.com/FR_Web_App/Player/PlayerSubmit.aspx?sid=4505&amp;ptype=alumni" target="_blank">Join Alumni Database</a>
+</li>
+<li>
+<a href="http://www.odaconline.com/sports/bsb/index" target="_blank">ODAC Home</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="body-container clearfix">
+<main class="mainbody clearfix" id="mainbody" role="main">
+<div class="schedule-wrap schedule-enhanced h2h-team has-logos clearfix" data-module="schedule-layout">
+<h1>2023 EMU Baseball Schedule</h1>
+<div class="team-stats accent-bg">
+<div class="clearfix">
+<div class="cat">
+<span class="label">Overall</span>
+<span class="value">0-0</span>
+</div>
+<div class="cat">
+<span class="label">Pct.</span>
+<span class="count">.000</span>
+</div>
+<div class="cat">
+<span class="label">Conf.</span>
+<span class="value">0-0</span>
+</div>
+<div class="cat">
+<span class="label">Pct.</span>
+<span class="count">.000</span>
+</div>
+<div class="cat">
+<span class="label">Streak</span>
+<span class="value">-</span>
+</div>
+<div class="cat">
+<span class="label">Home</span>
+<span class="value">0-0</span>
+</div>
+<div class="cat">
+<span class="label">Away</span>
+<span class="value">0-0</span>
+</div>
+<div class="cat">
+<span class="label">Neutral</span>
+<span class="value">0-0</span>
+</div>
+<div class="cat">
+<span class="label">Games</span>
+<span class="value"> - </span>
+</div>
+<div class="cat">
+<span class="label">Runs</span>
+<span class="value"> - </span>
+</div>
+<div class="cat">
+<span class="label">Batting Avg.</span>
+<span class="value"> - </span>
+</div>
+<div class="cat">
+<span class="label">On Base %</span>
+<span class="value"> - </span>
+</div>
+<div class="cat">
+<span class="label">Slugging %</span>
+<span class="value"> - </span>
+</div>
+<div class="cat">
+<span class="label">Home Runs</span>
+<span class="value"> - </span>
+</div>
+</div>
+</div>
+<div class="filters clearfix">
+<div class="filter venue-filter">
+<div class="select-list">
+<label>
+<span>Filter events by selecting a venue from the list</span>
+<select data-filter="true">
+<option value="all">All Venues</option>
+<option value="home">Home</option>
+<option value="away">Away</option>
+<option value="neutral">Neutral</option>
+</select>
+</label>
+</div>
+</div>
+<div class="filter type-filter">
+<div class="select-list">
+<label>
+<span>Filter events by selecting an event type from the list</span>
+<select data-filter="true">
+<option value="all">All Events</option>
+<option value="conf">Conference</option>
+</select>
+</label>
+</div>
+</div>
+<div class="filter seasons">
+<div class="select-list archive-list">
+<label>
+<span>Change the season by selecting an option from the list</span>
+<select>
+<option value="/sports/bsb/2021-22/schedule">2022</option>
+<option value="/sports/bsb/2020-21/schedule">2021</option>
+<option value="/sports/bsb/2019-20/schedule">2020</option>
+<option value="/sports/bsb/2018-19/schedule">2019</option>
+<option value="/sports/bsb/2017-18/schedule">2018</option>
+<option value="/sports/bsb/2016-17/schedule">2017</option>
+<option value="/sports/bsb/2015-16/schedule">2016</option>
+<option value="/sports/bsb/2014-15/schedule">2015</option>
+<option value="/sports/bsb/2013-14/schedule">2014</option>
+<option value="/sports/bsb/2012-13/schedule">2013</option>
+<option value="/sports/bsb/2011-12/schedule">2012</option>
+<option value="/sports/bsb/2010-11/schedule">2011</option>
+</select>
+</label>
+</div>
+<script>
+$(function() {
+  $('.archive-list select').change(function() {
+    window.location = $(this).val();
+  });
+});
+</script>
+</div>
+</div>
+<div class="stats-wrap stats-components row">
+<div class="schedule-content clearfix col">
+<div class="event-group">
+<div class="event-date accent-bg">February</div>
+<div class="event-row odd away upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. February 11, 2023"><span>Sat</span> <span>Feb</span> <span>11</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="r8nis71343t575qd">
+<img alt="Maryville (Tenn.)" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/r8nis71343t575qd.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Maryville (Tenn.)</span>
+</span>
+</div>
+</div>
+<div class="status">			1:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row even away upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. February 11, 2023"><span>Sat</span> <span>Feb</span> <span>11</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="r8nis71343t575qd">
+<img alt="Maryville (Tenn.)" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/r8nis71343t575qd.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Maryville (Tenn.)</span>
+</span>
+</div>
+</div>
+<div class="status">			4:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd away upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sun. February 12, 2023"><span>Sun</span> <span>Feb</span> <span>12</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="r8nis71343t575qd">
+<img alt="Maryville (Tenn.)" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/r8nis71343t575qd.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Maryville (Tenn.)</span>
+</span>
+</div>
+</div>
+<div class="status">			1:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row even away upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Wed. February 15, 2023"><span>Wed</span> <span>Feb</span> <span>15</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="251r3cyn1p48uzoy">
+<img alt="Christopher Newport" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/251r3cyn1p48uzoy.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Christopher Newport</span>
+</span>
+</div>
+</div>
+<div class="status">			2:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. February 18, 2023"><span>Sat</span> <span>Feb</span> <span>18</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="mrmffmw57in3i8s8">
+<img alt="Susquehanna" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/mrmffmw57in3i8s8.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Susquehanna</span>
+</span>
+</div>
+</div>
+<div class="status">			11:00 AM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: February 18 11:00 AM: Susquehanna vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230218_okgu.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. February 18, 2023"><span>Sat</span> <span>Feb</span> <span>18</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="mrmffmw57in3i8s8">
+<img alt="Susquehanna" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/mrmffmw57in3i8s8.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Susquehanna</span>
+</span>
+</div>
+</div>
+<div class="status">			2:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: February 18 02:00 PM: Susquehanna vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230218_ai45.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sun. February 19, 2023"><span>Sun</span> <span>Feb</span> <span>19</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="mrmffmw57in3i8s8">
+<img alt="Susquehanna" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/mrmffmw57in3i8s8.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Susquehanna</span>
+</span>
+</div>
+</div>
+<div class="status">			1:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: February 19 01:00 PM: Susquehanna vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230219_1dy8.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. February 21, 2023"><span>Tue</span> <span>Feb</span> <span>21</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="pna92ap08lliyduy">
+<img alt="Mary Baldwin" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/pna92ap08lliyduy.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Mary Baldwin</span>
+</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: February 21 03:00 PM: Mary Baldwin vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230221_bx6t.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. February 25, 2023"><span>Sat</span> <span>Feb</span> <span>25</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="ad1v6kof3elm5i45">
+<img alt="Oneonta" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/ad1v6kof3elm5i45.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Oneonta</span>
+</span>
+</div>
+<div class="notes">
+<span class="">7 Inn. </span> </div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: February 25 12:00 PM: Oneonta vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230225_gu3h.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. February 25, 2023"><span>Sat</span> <span>Feb</span> <span>25</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="ad1v6kof3elm5i45">
+<img alt="Oneonta" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/ad1v6kof3elm5i45.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Oneonta</span>
+</span>
+</div>
+<div class="notes">
+<span class="">7 Inn. </span> </div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: February 25 03:00 PM: Oneonta vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230225_rbsm.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+</div><div class="event-group">
+<div class="event-date accent-bg">March</div>
+<div class="event-row odd neutral upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sun. March 05, 2023"><span>Sun</span> <span>Mar</span> <span>05</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="mz7sjmskzckdjdow">
+<img alt="Penn St. Brandywine" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/mz7sjmskzckdjdow.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Penn St. Brandywine</span>
+</span>
+</div>
+<div class="notes">
+<span class="neutral-site">@ RussMatt Central Florida Invitational | Auburndale, Fla. </span> </div>
+</div>
+<div class="status">			2:45 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Neutral"><span>N</span></a>
+</div>
+</div> </div>
+<div class="event-row even neutral upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Mon. March 06, 2023"><span>Mon</span> <span>Mar</span> <span>06</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="dcsmsgji7ssfnwko">
+<img alt="Waynesburg" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/dcsmsgji7ssfnwko.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Waynesburg</span>
+</span>
+</div>
+<div class="notes">
+<span class="neutral-site">@ RussMatt Central Florida Invitational | Auburndale, Fla. </span> </div>
+</div>
+<div class="status">			9:45 AM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Neutral"><span>N</span></a>
+</div>
+</div> </div>
+<div class="event-row odd neutral upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. March 07, 2023"><span>Tue</span> <span>Mar</span> <span>07</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="tl82thgng9yp3xfh">
+<img alt="Pitt.-Greensburg" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/tl82thgng9yp3xfh.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Pitt.-Greensburg</span>
+</span>
+</div>
+<div class="notes">
+<span class="neutral-site">@ RussMatt Central Florida Invitational | Auburndale, Fla. </span> </div>
+</div>
+<div class="status">			9:45 AM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Neutral"><span>N</span></a>
+</div>
+</div> </div>
+<div class="event-row even home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. March 11, 2023"><span>Sat</span> <span>Mar</span> <span>11</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="2d0gqfwy5h4m6dtj">
+<img alt="Roanoke" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/2d0gqfwy5h4m6dtj.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Roanoke</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: March 11 12:00 PM: Roanoke vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230311_shkk.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. March 11, 2023"><span>Sat</span> <span>Mar</span> <span>11</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="2d0gqfwy5h4m6dtj">
+<img alt="Roanoke" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/2d0gqfwy5h4m6dtj.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Roanoke</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: March 11 03:00 PM: Roanoke vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230311_e40q.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. March 14, 2023"><span>Tue</span> <span>Mar</span> <span>14</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="87yf5ltl0yh3gapm">
+<img alt="Washington and Lee" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/87yf5ltl0yh3gapm.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Washington and Lee</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: March 14 03:00 PM: Washington and Lee vs. Eastern Mennonite: Live stats" class="link" href="/links/ufhqxw" target="_blank">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> <li> <a aria-label="Baseball event: March 14 03:00 PM: Washington and Lee vs. Eastern Mennonite: Live stats link 2" class="link" href="/sports/bsb/2022-23/boxscores/20230314_bg59.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd away conf upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. March 18, 2023"><span>Sat</span> <span>Mar</span> <span>18</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="zj749x1acgxw545l">
+<img alt="Virginia Wesleyan" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/zj749x1acgxw545l.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Virginia Wesleyan</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row even away conf upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. March 18, 2023"><span>Sat</span> <span>Mar</span> <span>18</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="zj749x1acgxw545l">
+<img alt="Virginia Wesleyan" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/zj749x1acgxw545l.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Virginia Wesleyan</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. March 21, 2023"><span>Tue</span> <span>Mar</span> <span>21</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="5nhao7rcwbg0rkzu">
+<img alt="Trinity (Conn.)" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/5nhao7rcwbg0rkzu.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Trinity (Conn.)</span>
+</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: March 21 03:00 PM: Trinity (Conn.) vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230321_8iu5.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even away conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Wed. March 22, 2023"><span>Wed</span> <span>Mar</span> <span>22</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="87yf5ltl0yh3gapm">
+<img alt="Washington and Lee" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/87yf5ltl0yh3gapm.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Washington and Lee</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: March 22 03:00 PM: Eastern Mennonite at Washington and Lee: Video" class="link" href="/links/3os5us" target="_blank">
+<span class="icon gicon-vi" title="Video"></span>
+<span class="text">Video</span>
+</a>
+</li> <li> <a aria-label="Baseball event: March 22 03:00 PM: Eastern Mennonite at Washington and Lee: Live stats" class="link" href="/links/ufhqxw" target="_blank">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. March 25, 2023"><span>Sat</span> <span>Mar</span> <span>25</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="25tj74syyhaglzsj">
+<img alt="Ferrum" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/25tj74syyhaglzsj.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Ferrum</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: March 25 12:00 PM: Ferrum vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230325_zjhn.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. March 25, 2023"><span>Sat</span> <span>Mar</span> <span>25</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="25tj74syyhaglzsj">
+<img alt="Ferrum" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/25tj74syyhaglzsj.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Ferrum</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: March 25 03:00 PM: Ferrum vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230325_t98m.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd away conf upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. March 28, 2023"><span>Tue</span> <span>Mar</span> <span>28</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="30sv956zr82r264z">
+<img alt="Shenandoah" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/30sv956zr82r264z.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Shenandoah</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			4:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+</div><div class="event-group">
+<div class="event-date accent-bg">April</div>
+<div class="event-row even away conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 01, 2023"><span>Sat</span> <span>Apr</span> <span>01</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="j6q6mir2jy84il6e">
+<img alt="Lynchburg" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/j6q6mir2jy84il6e.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Lynchburg</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 1 12:00 PM: Eastern Mennonite at Lynchburg: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230401_9ay6.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd away conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 01, 2023"><span>Sat</span> <span>Apr</span> <span>01</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="j6q6mir2jy84il6e">
+<img alt="Lynchburg" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/j6q6mir2jy84il6e.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Lynchburg</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 1 03:00 PM: Eastern Mennonite at Lynchburg: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230401_w59x.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row even home upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. April 04, 2023"><span>Tue</span> <span>Apr</span> <span>04</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="251r3cyn1p48uzoy">
+<img alt="Christopher Newport" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/251r3cyn1p48uzoy.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Christopher Newport</span>
+</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Wed. April 05, 2023"><span>Wed</span> <span>Apr</span> <span>05</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="8pkt6367cfzii8xm">
+<img alt="Bridgewater" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/8pkt6367cfzii8xm.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Bridgewater</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			4:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 5 04:00 PM: Bridgewater vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230405_1047.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even away conf upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 08, 2023"><span>Sat</span> <span>Apr</span> <span>08</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="jgct1hqecgl3h4l3">
+<img alt="Hampden-Sydney" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/jgct1hqecgl3h4l3.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Hampden-Sydney</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd away conf upcoming no-leaders">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 08, 2023"><span>Sat</span> <span>Apr</span> <span>08</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="jgct1hqecgl3h4l3">
+<img alt="Hampden-Sydney" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/jgct1hqecgl3h4l3.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Hampden-Sydney</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links empty">
+<ul> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row even home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. April 11, 2023"><span>Tue</span> <span>Apr</span> <span>11</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="pna92ap08lliyduy">
+<img alt="Mary Baldwin" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/pna92ap08lliyduy.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Mary Baldwin</span>
+</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 11 03:00 PM: Mary Baldwin vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230411_vhlt.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Thu. April 13, 2023"><span>Thu</span> <span>Apr</span> <span>13</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="6ekbdd6y54rdh89d">
+<img alt="Mary Washington" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/6ekbdd6y54rdh89d.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Mary Washington</span>
+</span>
+</div>
+</div>
+<div class="status">			4:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 13 04:00 PM: Mary Washington vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230413_hngg.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 15, 2023"><span>Sat</span> <span>Apr</span> <span>15</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="fcifpmtm68gl50bs">
+<img alt="Guilford" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/fcifpmtm68gl50bs.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Guilford</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 15 12:00 PM: Guilford vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230415_8mzk.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 15, 2023"><span>Sat</span> <span>Apr</span> <span>15</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="fcifpmtm68gl50bs">
+<img alt="Guilford" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/fcifpmtm68gl50bs.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Guilford</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 15 03:00 PM: Guilford vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230415_yuv3.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even away conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Wed. April 19, 2023"><span>Wed</span> <span>Apr</span> <span>19</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="8pkt6367cfzii8xm">
+<img alt="Bridgewater" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/8pkt6367cfzii8xm.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Bridgewater</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			4:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 19 04:00 PM: Eastern Mennonite at Bridgewater: Video" class="link" href="/links/4yt7p2" target="_blank">
+<span class="icon gicon-vi" title="Video"></span>
+<span class="text">Video</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 22, 2023"><span>Sat</span> <span>Apr</span> <span>22</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="s79zfst2l0nfr4uh">
+<img alt="Randolph-Macon" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/s79zfst2l0nfr4uh.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Randolph-Macon</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 22 12:00 PM: Randolph-Macon vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230422_ouhy.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 22, 2023"><span>Sat</span> <span>Apr</span> <span>22</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="s79zfst2l0nfr4uh">
+<img alt="Randolph-Macon" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/s79zfst2l0nfr4uh.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Randolph-Macon</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 22 03:00 PM: Randolph-Macon vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230422_h4o8.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row odd home conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Tue. April 25, 2023"><span>Tue</span> <span>Apr</span> <span>25</span></div>
+<div class="va">vs</div>
+<div class="team-logo" data-teamid="30sv956zr82r264z">
+<img alt="Shenandoah" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/30sv956zr82r264z.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-bold bold"> <span class="team-name">Shenandoah</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:30 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 25 03:30 PM: Shenandoah vs. Eastern Mennonite: Live stats" class="link" href="/sports/bsb/2022-23/boxscores/20230425_1rez.xml">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Home"><span>H</span></a>
+</div>
+</div> </div>
+<div class="event-row even away conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 29, 2023"><span>Sat</span> <span>Apr</span> <span>29</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="gvl2v1x7rjy4d3oe">
+<img alt="Averett" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/gvl2v1x7rjy4d3oe.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Averett</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			12:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 29 12:00 PM: Eastern Mennonite at Averett: Live stats" class="link" href="/links/pzcmf5" target="_blank">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+<div class="event-row odd away conf upcoming no-leaders has-links">
+<div class="inner-wrap clearfix">
+<div class="event-info clearfix">
+<div class="date" title="Sat. April 29, 2023"><span>Sat</span> <span>Apr</span> <span>29</span></div>
+<div class="va">at</div>
+<div class="team-logo" data-teamid="gvl2v1x7rjy4d3oe">
+<img alt="Averett" class="lazyload" data-src="https://cdn.prestosports.com/action/cdn/logos/id/gvl2v1x7rjy4d3oe.png"/>
+</div>
+<div class="event clearfix">
+<div class="opponent">
+<span class="font-weight-normal normal"> <span class="team-name">Averett</span>
+</span>
+<span class="notation" title="Conference">*</span>
+</div>
+</div>
+<div class="status">			3:00 PM
+	</div>
+<div class="result">
+</div>
+<div class="links">
+<ul> <li> <a aria-label="Baseball event: April 29 03:00 PM: Eastern Mennonite at Averett: Live stats" class="link" href="/links/pzcmf5" target="_blank">
+<span class="icon gicon-ls" title="Live stats"></span>
+<span class="text">Live stats</span>
+</a>
+</li> </ul> </div>
+<a class="venue" href="#" title="Away"><span>A</span></a>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+<div class="notations">
+<div class="conf"><strong>*</strong> <span>Conference</span></div>
+</div>
+<div class="subscribe-links">
+<a href="/sports/bsb/2022-23/schedule?print=ical"><img alt="" src="/info/images/icon_schedule.gif"/> <strong>iCalendar</strong></a> <a href="/sports/bsb/2022-23/schedule?print=rss"><img alt="" src="/info/images/icon_rss.gif"/> <strong>RSS Feed</strong></a> </div>
+<link href="http://easternmennonite.prestosports.com/sports/bsb/2022-23/schedule?tmpl=sfs-template" rel="alternate" title="2023 EMU Baseball Schedule" type="application/sfs+xml"/>
+<link href="http://easternmennonite.prestosports.com/sports/bsb/2022-23/schedule?print=rss" rel="alternate" title="2023 EMU Baseball Schedule" type="application/rss+xml"/>
+</div>
+<div adspot="PS_WEB_INTERNAL_LEADERBOARD" id="schedule_d9bb2feb-c45f-4f38-841d-980e61713b44" key="googleAdContainer" sizes="[[300,250],[728,90],[970,90]]"></div>
+<script async="" data-uid="UA-1939879-1" src="/info/ga/include.js" type="text/javascript"></script>
+<div class="share-buttons clearfix" data-module="share-buttons">
+<div class="share-btn facebook">
+<a aria-label="Share this page on Facebook" class="addthis_button_facebook" role="button">
+<span class="gicon-facebook"></span><span class="text">Facebook</span>
+</a>
+</div>
+<div class="share-btn twitter">
+<a aria-label="Share this page on Twitter" class="addthis_button_twitter" role="button">
+<span class="gicon-twitter"></span><span class="text">Twitter</span>
+</a>
+</div>
+<div class="share-btn email">
+<a aria-label="Share this page via email" class="addthis_button_email" role="button">
+<span class="gicon-mail"></span><span class="text">Email</span>
+</a>
+</div>
+<div class="share-btn print">
+<a aria-label="Print this page" class="printer-friendly" href="http://easternmennonite.prestosports.com/sports/bsb/2022-23/schedule?dec=printer-decorator" role="button" target="_blank" title="Print">
+<span class="gicon-print"></span><span class="text">Print</span>
+</a>
+</div>
+<div class="share-btn addthis">
+<a aria-label="More Sharing Services" class="addthis_button_more" role="button">
+<span class="gicon-addthis"></span><span class="text">Addthis</span>
+</a>
+</div>
+</div>
+</main> </div>
+<footer class="site-footer" role="contentinfo">
+<div class="navbar-image footer-logos">
+<ul class="clearfix">
+<li>
+<a href="http://www.ncaa.com/" target="_blank">
+<img alt="" class="lazyload" data-src="/images/setup/2017_footer_logo_1.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+</a>
+</li>
+<li>
+<a href="http://odaconline.com/landing/index" target="_blank">
+<img alt="" class="lazyload" data-src="/images/setup/2017_footer_logo_2.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+</a>
+</li>
+<li>
+<a href="http://www.thecvc.org/landing/index" target="_blank">
+<img alt="" class="lazyload" data-src="/images/setup/2017_footer_logo_3.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+</a>
+</li>
+<li>
+<a href="http://www.d3sports.com/landing/index" target="_blank">
+<img alt="" class="lazyload" data-src="/images/setup/2017_footer_logo_4.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+</a>
+</li>
+</ul>
+</div>
+<!-- from: generic theme --><script async="" data-uid="UA-1939879-1" src="/info/ga/include.js" type="text/javascript"></script>
+<div class="container clearfix">
+<a class="footer-edu-logo" href="https://www.emu.edu/" target="_blank"><img alt="Edu link" src="/images/setup/2017_footer_logo_edu.png"/></a>
+<p class="footer-address clearfix">
+<span><strong>Eastern Mennonite University Athletics</strong></span><br/>
+<span>1200 Park Road, Harrisonburg Virginia</span> <span>Phone: (540) 432-4440</span> <span>Fax: (540) 432-4443</span>
+</p>
+<a class="footer-presto-logo" href="http://www.prestosports.com"><img alt="PrestoSports" src="/images/setup/2017_footer_logo_presto.png"/></a>
+</div>
+</footer>
+</div> </div>
+<script src="/js/addons.js"></script>
+<script type="text/javascript">var _qevents = _qevents || [];(function() {var elem = document.createElement('script');elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")+ ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem, scpt);})();</script><script type="text/javascript">_qevents.push( { qacct:"p-c1MZx5LfVe-Xw"} );</script><noscript aria-hidden="true"><div style="display: none;"><img alt="" height="1" src="http://pixel.quantserve.com/pixel/p-c1MZx5LfVe-Xw" width="1"/></div></noscript><script>var _comscore = _comscore || [];_comscore.push({ c1: "2", c2: "19291688" });(function() {var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s, el);})();</script><noscript aria-hidden="true"><img alt="" src="http://b.scorecardresearch.com/p?c1=2&amp;c2=19291688&amp;cv=2.0&amp;cj=1"/></noscript>
+<!-- dropoff-scripts -->
+<script src="https://cdn.prestosports.com/action/cdn/info/cookie-handler.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+	if (readCookie('adminuser')) {
+		$('body').append('<span id="edit-page-btn" style="display: block; padding: 10px; z-index: 9999; background: #000; color: #fff; font-size: 12px; position: fixed; right: 0; top: 0; cursor: default">Edit Page</span>');
+		$('#edit-page-btn').click(function() {
+			url = document.location.protocol + '//' + document.location.hostname
+			if (document.location.port) url += ':' + document.location.port;
+			url += '/admin/content/wiki/g2g';
+			url += document.location.pathname;
+			window.location = url;
+		});
+	}
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  if (window.self == window.top) {
+    return;
+  }
+  var heroic = document.referrer.indexOf("herosports.com/");
+  if (heroic > -1) {
+    alert("We do not allow HERO Sports to frame our site.");
+    window.top.location = window.location;
+  }
+});
+</script>
+<script>
+        window.requirejsBaseUrl = "https://cdn.prestosports.com/action/cdn/info";
+    </script>
+<script data-main="https://cdn.prestosports.com/action/cdn/info/main.js" src="https://cdn.prestosports.com/action/cdn/info/vendor/require.js"></script>
+<!-- no rum footer -->
+<script src="//securepubads.g.doubleclick.net/tag/js/gpt.js" type="text/javascript"></script><script src="/info/googleService/googleService.js" type="text/javascript"></script><script>jQuery(document).ready(function (){ ps.info.ads.GoogleAds.render('/1025241/PS_WEB/'); ps.info.ads.GoogleAds.cleanEmptySpots(); } );</script>
+</body>
+</html>
