@@ -1,6 +1,10 @@
+from datetime import datetime
+
+import schedule
+import time
 import dash
 from dash import html
-from datetime import datetime
+
 from get_tides_widget import get_tides_widget
 from get_weather_widget import get_weather_widget
 
@@ -19,22 +23,29 @@ def set_background_color():
         f.write(style_css)
         
         
-set_background_color()  
+def job():        
+    set_background_color()  
 
+    app = dash.Dash(__name__)
 
-app = dash.Dash(__name__)
+    app.layout = html.Div(
+        style={
+            'display': 'flex',
+            'flex-direction': 'column',
+        },
+        children=[
+            get_weather_widget(),
+            html.Hr(style={'border': '1px solid rgba(0, 0, 255, 0.2)', 'width': '50px', 'margin': '4px 0'}),
+            get_tides_widget(),
 
-app.layout = html.Div(
-    style={
-        'display': 'flex',
-        'flex-direction': 'column',
-    },
-    children=[
-        get_weather_widget(),
-        html.Hr(style={'border': '1px solid rgba(0, 0, 255, 0.2)', 'width': '50px', 'margin': '4px 0'}),
-        get_tides_widget(),
+        ]
+    )
+    if __name__ == '__main__':
+        app.run_server(debug=True)
+        
+        
+schedule.every(30).minutes.do(job)
 
-    ]
-)
-if __name__ == '__main__':
-    app.run_server(debug=True)
+while True:
+    schedule.run_pending()
+    time.sleep(10)        
