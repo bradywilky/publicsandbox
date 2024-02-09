@@ -5,6 +5,8 @@ from dash import html, dcc, dash_table
 
 from pull_tide_predictions import get_closest_tide_display_strings, get_future_tides_display_data
 from generate_recorded_data_plot import run_tidal_plot_generation
+from utils.utils import get_color
+
 
 def get_tide_graph_widget():
     today = datetime.now()
@@ -31,7 +33,7 @@ def get_tide_status_widget():
             'margin': '1px',            # Adds space outside the box
             'width': '180px',            # Sets the width of the box
             'height': '100px',           # Sets the height of the box
-            'backgroundColor': 'rgba(220, 220, 220, 1)',
+            'backgroundColor': get_color('widget_alt1'),
             
             'display': 'flex',
             'flex-direction': 'column',
@@ -67,8 +69,8 @@ def get_tide_status_widget():
             'margin': '1px',            # Adds space outside the box
             'width': '200px',            # Sets the width of the box
             'height': '100px',           # Sets the height of the box
-            'backgroundColor': 'rgba(255, 255, 255, 1)',
-            'box-shadow': '2px 2px 2px lightgrey',  # Optional: adds a shadow effect
+            'backgroundColor': get_color('widget_alt1'),
+            'box-shadow': '0 0 15px rgba(0, 0, 0, 0.5)',
             
             'display': 'flex',
             'flex-direction': 'column',
@@ -102,7 +104,7 @@ def get_tide_status_widget():
             'margin': '1px',            # Adds space outside the box
             'width': '180px',            # Sets the width of the box
             'height': '100px',           # Sets the height of the box
-            'backgroundColor': 'rgba(220, 220, 220, 1)',
+            'backgroundColor': get_color('widget_alt1'),
             
             'display': 'flex',
             'flex-direction': 'column',
@@ -167,7 +169,7 @@ def get_future_tide_div(future_tide_dict):
             'margin': '1px',            # Adds space outside the box
             'width': '90px',            # Sets the width of the box
             'height': '30px',           # Sets the height of the box
-            'backgroundColor': 'rgba(255, 255, 255, 1)',
+            'backgroundColor': get_color('widget_minor'),
             'border-radius': '3px', # rounds corners
             'display': 'flex',
             'flex-direction': 'row',
@@ -220,9 +222,9 @@ def get_tides_widget():
             'margin': '10px',            # Adds space outside the box
             'width': '950px',            # Sets the width of the box
             'height': '700px',           # Sets the height of the box
-            'box-shadow': '2px 2px 2px lightgrey',  # Optional: adds a shadow effect
+        
             'border-radius': '15px', # rounds corners
-            'backgroundColor': 'rgb(51, 122, 158)',
+            'backgroundColor': get_color('widget_main'),
             'display': 'flex',
             'flex-direction': 'column',
         },

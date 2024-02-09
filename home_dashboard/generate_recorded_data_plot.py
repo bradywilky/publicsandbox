@@ -1,4 +1,4 @@
-import requests, json, os
+import requests, json, os, statistics
 from datetime import datetime, timedelta
 
 import pandas as pd
@@ -8,6 +8,7 @@ import matplotlib.dates as mdates
 import numpy as np
 from scipy.signal import find_peaks
 
+from utils.utils import get_color
 
 def _get_raw_noaa_data(product='water_level', begin_date='20200101', end_date='20200101'):
     # Specify the API endpoint
@@ -74,7 +75,7 @@ def _get_peak_tide_labels(df):
     
 def generate_water_level_plot(
     clean_data,
-    title='default',
+    title=None,
     ylab='default',
     dir='assets',
     fname='plot',
@@ -84,9 +85,15 @@ def generate_water_level_plot(
     # Plotting
     plt.figure(figsize=(10, 5))
     plt.plot(clean_data['t'], clean_data['v'])
-    plt.ylabel(ylab)
-    plt.title(title)
-    plt.axhline(y=0, color=(0.0, 0.0, 0.0), linestyle='-', alpha=0.1)
+    plt.ylabel(ylab, color=get_color('accent2', for_matplotlib=True))
+    if title:
+        plt.title(title)
+    plt.axhline(
+        y=statistics.mean(clean_data['v']),
+        color=get_color('accent1', for_matplotlib=True),
+        linestyle='-',
+        alpha=0.8
+    )
         
     if len(custom_xticks) > 0:
         plt.xticks(custom_xticks['t'], custom_xticks['t_display'])
@@ -99,11 +106,14 @@ def generate_water_level_plot(
     ax = plt.gca()
     for label in ax.get_xticklabels():
         label.set_ha('right') # For some reason, 'right' moves the labels left
+
+    ax.tick_params(axis='x', colors=get_color('accent2', for_matplotlib=True))  # Changes the x-axis tick labels
+    ax.tick_params(axis='y', colors=get_color('accent2', for_matplotlib=True))  # Changes the y-axis tick labels
         
-    ax.set_facecolor((0.95, 0.95, 0.95, 0.99))
+    ax.set_facecolor(get_color('widget_minor', for_matplotlib=True))
     
     fig = plt.gcf()  # Get current figure
-    fig.set_facecolor((0.0, 0.0, 0.0, 0.01))
+    fig.set_facecolor(get_color('widget_minor', for_matplotlib=True))
 
     plt.tight_layout()  # Adjusts the plot to ensure everything fits without overlapping
     plt.savefig(os.path.join(os.getcwd(), dir, f'{fname}.{fmt}'))
@@ -112,7 +122,7 @@ def generate_water_level_plot(
     
 def generate_water_temperature_plot(
     clean_data,
-    title='default',
+    title=None,
     ylab='default',
     dir='assets',
     fname='plot',
@@ -123,7 +133,8 @@ def generate_water_temperature_plot(
     plt.figure(figsize=(10, 5))
     plt.plot(clean_data['t'], clean_data['v'])
     plt.ylabel(ylab)
-    plt.title(title)
+    if title:
+        plt.title(title)
 
     # Set x-axis major ticks to every day
     plt.gca().xaxis.set_major_locator(mdates.DayLocator())
@@ -166,7 +177,6 @@ def run_tidal_plot_generation(begin_date, end_date):
     xticks = _get_peak_tide_labels(clean_data)
     generate_water_level_plot(
         clean_data,
-        title='Washington Channel: Water Level',
         ylab='Water Level (feet)',
         fname='water_level',
         custom_xticks=xticks

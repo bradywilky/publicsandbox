@@ -1,4 +1,0 @@
-Any pictures or data has to be in a directory one level lower than where the app.py file is
-
-After starting up script, if you want to access the page locally, type in output host from Dash
-If you want to view from another computer, make sure in app.py you use the local network config, and on another computer type in "http://{host_ip}:{port_specified_in_app.py}

@@ -1,17 +1,19 @@
 # Using OpenWeather API for weather data
 # https://openweathermap.org/
 
-# this is the API key I have for OpenWeatherMap
-def _API_KEY():
-    return '1dd896b7646aa8305ab5bc5f88ddd404'
 
 
-import requests
+
+import requests, os, json
 from datetime import datetime
 
 import pandas as pd
 
 
+# this is the API key I have for OpenWeatherMap
+def _API_KEY():
+    return os.environ.get('OPENWEATHERMAP_API_KEY')
+    
 def _wind_degree_to_direction(degree):
     directions = [
         "N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"
@@ -58,6 +60,14 @@ def _extract_pressure(data, status_type='current'):
 
 
 def _extract_sunset(data, status_type='current'):
+    if status_type == 'current':
+        data = data['current']
+    sunset_unixtime = data['sunset']
+    dt_object = datetime.fromtimestamp(sunset_unixtime)
+    sunset_time = dt_object.strftime('%I:%M %p').lstrip('0')
+    return sunset_time
+    
+def _extract_sun_dict(data, status_type='current'):
     if status_type == 'current':
         data = data['current']
     sunset_unixtime = data['sunset']
@@ -132,3 +142,28 @@ def weather_api_call():
     data = response.json()
     
     return data
+    
+    
+def handle_daily_sun():
+    
+    sun_json_path = 'datacache/temp_daily_sun.json'
+    
+    def _write():
+        data = weather_api_call()
+        sun_json = {'current_date': datetime.today().date().strftime("%Y-%m-%d")}
+        sun_json['sun_list'] = [{'date': d['dt'], 'rise': d['sunrise'], 'set': d['sunset']} for d in data['daily']]
+        with open(sun_json_path, 'w') as f:
+            f.write(json.dumps(sun_json))
+                
+    try:
+        with open(sun_json_path, 'r') as f:
+            sun_json = json.loads(f.read())
+        if datetime.today().date().strftime("%Y-%m-%d") > sun_json['current_date']:
+            _write()
+    except FileNotFoundError:  # create dummy JSON with yesterday's values if file DNE
+        _write()
+        
+    with open(sun_json_path, 'r') as f:
+        sun_json = json.loads(f.read())
+       
+    return sun_json

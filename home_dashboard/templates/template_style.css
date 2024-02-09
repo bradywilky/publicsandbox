@@ -1,4 +1,6 @@
 body {
-    background-color: BACKGROUND_COLOR_SUB;
+    BACKGROUND_TYPE_SUB: BACKGROUND_COLOR_SUB;
     font-family: Roboto;
+    color: FONT_COLOR_SUB;
+}
 }

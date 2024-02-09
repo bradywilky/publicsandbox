@@ -4,7 +4,7 @@ import dash
 from dash import html, dcc, dash_table
 
 from pull_weather_data import weather_api_call, pull_daily_forecast, pull_hourly_forecast, pull_current_weather
-
+from utils.utils import get_color, get_weather_description_image_switch
 
 today = datetime.now()
 yesterday = today + timedelta(days=-1)
@@ -25,21 +25,24 @@ def get_current_weather_widget():
             'margin': '20px',
             'width': '300px',            # Sets the width of the box
             'height': '300px',           # Sets the height of the box            
-            'backgroundColor': 'rgb(240, 240, 240)',
-            'border-radius': '15px', 
             'display': 'flex',
             'flex-direction': 'column',
-            'alignItems': 'center',            
+            'alignItems': 'center',
+            'backgroundColor': get_color('widget_minor'),
+            'border-radius': '15px',
         },
         children=[
             html.P(current_weather_dict['location'], style={'fontSize': 20, 'marginTop': '5px', 'marginBottom': '5px'}),
+            html.Img(
+                src=get_weather_description_image_switch(current_weather_dict['description']),
+                style={'object-fit': 'contain', 'max-width': '40%', 'max-height': '40%'}
+            ),
             html.P(current_weather_dict['temperature'], style={'fontSize': 100, 'marginTop': '5px','marginBottom': '5px'}),
-            html.P(current_weather_dict['description'], style={'fontSize': 20, 'marginTop': '5px','marginBottom': '10px'}),
             html.P(current_weather_dict['wind'], style={'fontSize': 20, 'marginTop': '5px','marginBottom': '16px'}),
             html.Div(
                 style={'display': 'flex', 'flex-direction': 'row',},  # Use flexbox for horizontal alignment
                 children=[
-                    html.Img(src="/assets/static/sunset.png", style={'width': '15%', 'height': '100%',}),
+                    html.Img(src="/assets/static/sunset.png", style={'object-fit': 'contain', 'max-width': '100%', 'max-height': '100%'}),
                     html.Div(current_weather_dict['sunset'], style={'fontSize': 20, 'width': '80px',}),
                 ]
             ),                        
@@ -56,24 +59,24 @@ def get_hourly_weather_div(hourly_weather_dict):
 
     div = html.Div(
         style={
-            'border': '1px solid black',  # Creates a border around the div
             'padding': '3px',           # Adds some space inside the box around the text
             'margin': '1px',            # Adds space outside the box
             'width': '70px',            # Sets the width of the box
-            'height': '67px',           # Sets the height of the box
-            'backgroundColor': 'rgba(0, 0, 0, 0.05)',
-  #          'box-shadow': '2px 2px 2px lightgrey',  # Optional: adds a shadow effect
+            'height': '117px',           # Sets the height of the box
+            'backgroundColor': get_color('widget_minor'),
             
             'display': 'flex',
             'flex-direction': 'column',
             'alignItems': 'center',
         },
         children=[
-
-            html.P(temperature, style={'fontSize': 13, 'marginTop': '0px', 'marginBottom': '2px'}),
-            html.P(weather, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),
+            html.Img(
+                src=get_weather_description_image_switch(weather),
+                style={'object-fit': 'contain', 'max-width': '50%', 'max-height': '50%'}
+            ),
+            html.P(temperature, style={'fontSize': 17, 'marginTop': '3px', 'marginBottom': '2px'}),
             html.P(wind, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),            
-            html.Hr(style={'border': '1px solid rgba(0, 0, 255, 0.2)', 'width': '50px', 'margin': '4px 0'}),
+            html.Hr(style={'border': f'1px solid {get_color("accent2")}', 'width': '50px', 'margin': '10px 0'}),
             html.P(time, style={'fontSize': 13, 'fontWeight': 'bold', 'marginTop': '2px', 'marginBottom': '0px'}),
         ]
     )
@@ -113,33 +116,30 @@ def get_daily_weather_div(daily_weather_dict):
 
     div = html.Div(
         style={
-            'border': '1px solid black',  # Creates a border around the div
+
             'padding': '3px',           # Adds some space inside the box around the text
-            'margin': '1px',            # Adds space outside the box
+            'margin': '3px',            # Adds space outside the box
             'width': '120px',            # Sets the width of the box
             'height': '120px',           # Sets the height of the box
-            'backgroundColor': 'rgba(0, 0, 0, 0.05)',
-  #          'box-shadow': '2px 2px 2px lightgrey',  # Optional: adds a shadow effect
-            
+            'backgroundColor': get_color('widget_minor'),
+            'border-radius': '4px', # rounds corners            
             'display': 'flex',
             'flex-direction': 'column',
             'alignItems': 'center',
         },
         children=[
-            
+            html.P(day, style={'fontSize': 18, 'fontWeight': 'bold', 'marginTop': '2px', 'marginBottom': '0px'}),    
+            html.P(date, style={'fontSize': 15, 'marginTop': '13px', 'marginBottom': '0px'}),
+            html.Hr(style={'border': '1px solid rgba(0, 0, 255, 0.2)', 'width': '50px', 'margin': '4px 0'}),
+            html.P(weather, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),            
+            html.P(wind, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),             
             html.Div(
                 style={'display': 'flex', 'flex-direction': 'row', 'alignItems': 'center',},
                 children=[
-                    html.P(high, style={'fontSize': 22, 'fontWeight': 'bold', 'marginTop': '0px', 'marginBottom': '2px', 'marginRight': '3px', 'color': 'rgb(30, 39, 51)'}),
-                    html.P(low, style={'fontSize': 14, 'marginTop': '0px', 'marginBottom': '2px','color': 'rgba(20, 25, 33, 0.6)'}),
+                    html.P(high, style={'fontSize': 22, 'fontWeight': 'bold', 'marginTop': '0px', 'marginBottom': '2px', 'marginRight': '3px',}),
+                    html.P(low, style={'fontSize': 14, 'marginTop': '0px', 'marginBottom': '2px',}),
                 ]
             ),
-
-            html.P(weather, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),
-            html.P(wind, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),            
-            html.Hr(style={'border': '1px solid rgba(0, 0, 255, 0.2)', 'width': '50px', 'margin': '4px 0'}),
-            html.P(date, style={'fontSize': 15, 'color': 'rgba(30, 39, 51, 0.85)', 'marginTop': '13px', 'marginBottom': '0px'}),            
-            html.P(day, style={'fontSize': 18, 'color': 'rgb(30, 39, 51)', 'fontWeight': 'bold', 'marginTop': '2px', 'marginBottom': '0px'}),
         ]
     )
     
@@ -171,16 +171,15 @@ def get_weather_widget():
     return html.Div(
         style={
 
-            'border': '1px solid black',  # Creates a border around the div
             'padding': '20px',           # Adds some space inside the box around the text
             'margin': '10px',            # Adds space outside the box
             'width': '950px',            # Sets the width of the box
             'height': '700px',           # Sets the height of the box
-            'box-shadow': '2px 2px 2px lightgrey',  # Optional: adds a shadow effect
             'border-radius': '15px', # rounds corners
-            'backgroundColor': 'white',
+            'backgroundColor': get_color('widget_main'),
             'display': 'flex',
             'flex-direction': 'column',
+            'box-shadow': '0 0 15px rgba(0, 0, 0, 0.5)',
         },
         children=[
 
