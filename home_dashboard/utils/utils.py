@@ -17,15 +17,22 @@ def get_weather_description_image_switch(description):
         'broken clouds': 'partly_cloudy',
         'clear sky': 'clear_skies',
         'few clouds': 'scattered_cloudy',
-        'heavy intensity rain': 'heavy_rain',
-        'light rain': 'drizzle',
-        'light snow': 'snow',
-        'moderate rain': 'rain',
         'overcast clouds': 'cloudy',
-        'rain and snow': 'winter_mix',
-        'scattered clouds': 'partly_cloudy',
-        'snow': 'heavy_snow',
+        'scattered clouds': 'partly_cloudy',        
+
+        'mist': 'hazy',
+        'light intensity drizzle': 'drizzle',
+        'light rain': 'drizzle',
+        'moderate rain': 'rain',
+
         'very heavy rain': 'heavy_rain',
+        'heavy intensity rain': 'heavy_rain',
+
+        'light snow': 'snow',
+        'light rain and snow': 'winter_mix',
+        'rain and snow': 'winter_mix',
+        'snow': 'heavy_snow',
+
     }
     
     return f"/assets/static/weather_types/{switch[description]}.png"
@@ -68,7 +75,7 @@ def get_color(layout, for_matplotlib=False):
         color_dict['widget_main'] = "rgb(255, 255, 255)"
         color_dict['widget_minor'] = "rgb(51, 122, 158)"
         color_dict['accent1'] = "rgb(55, 55, 55)"
-        color_dict['accent2'] = "rgb(155, 55, 55)"
+        color_dict['accent2'] = "rgb(255, 255, 255)"
         color_dict['widget_alt1'] = "rgb(12, 12, 20)"
         color_dict['widget_alt2'] = "rgb(12, 12, 20)"
     else: # Nighttime color

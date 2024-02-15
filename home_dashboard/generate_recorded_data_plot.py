@@ -65,12 +65,32 @@ def _transform_noaa_data(raw_data):
     
 
 def _get_peak_tide_labels(df):
+
+    # sometimes there are still overlapping labels, so this is a hacky way to
+    # remove them
+    def _remove_close_labels(xticks):
+        xticks = xticks.copy()  # Pandas gave a warning that xticks may have been a view, so this handles that
+    
+        xticks.sort_values('t', inplace=True)
+        indexes_to_keep = []
+
+        prev_t = None
+        for idx, row in xticks.iterrows():
+            if prev_t is None or (row['t'] - prev_t) > timedelta(minutes=20):
+                indexes_to_keep.append(idx)
+            prev_t = row['t']
+
+        filtered_xticks = xticks.loc[indexes_to_keep]
+        
+        return filtered_xticks
+        
+        
     POINTS_PER_HOUR = 10
     peaks, _ = find_peaks(df['v'], width=POINTS_PER_HOUR)
     troughs, _ = find_peaks(-df['v'], width=POINTS_PER_HOUR)
     extrema = list(peaks) + list(troughs)
     local_extrema = df.iloc[extrema]   
-    return local_extrema
+    return _remove_close_labels(local_extrema)
     
     
 def generate_water_level_plot(
@@ -82,9 +102,11 @@ def generate_water_level_plot(
     fmt='png',
     custom_xticks=pd.DataFrame()
 ):
+
+    
     # Plotting
     plt.figure(figsize=(10, 5))
-    plt.plot(clean_data['t'], clean_data['v'])
+    plt.plot(clean_data['t'], clean_data['v'], color=get_color('accent2', for_matplotlib=True))
     plt.ylabel(ylab, color=get_color('accent2', for_matplotlib=True))
     if title:
         plt.title(title)
@@ -131,14 +153,14 @@ def generate_water_temperature_plot(
     
     # Plotting
     plt.figure(figsize=(10, 5))
-    plt.plot(clean_data['t'], clean_data['v'])
+    plt.plot(clean_data['t'], clean_data['v'], color=get_color('accent2', for_matplotlib=True))
     plt.ylabel(ylab)
     if title:
         plt.title(title)
 
     # Set x-axis major ticks to every day
     plt.gca().xaxis.set_major_locator(mdates.DayLocator())
-    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
 
     # Set x-axis minor ticks to every 3 hours
     plt.gca().xaxis.set_minor_locator(mdates.HourLocator(byhour=range(0, 24, 3)))
@@ -153,13 +175,19 @@ def generate_water_temperature_plot(
     # Add horizontal lines at every 5 degrees
     for i in range(20):
         if min(clean_data['v'])-1 <= i*5 <= max(clean_data['v'])+1:
-            plt.axhline(y=i*5, color=(0.0, 0.0, 0.0), linestyle='-', alpha=0.1)
+            plt.axhline(y=i*5, color=get_color('accent2', for_matplotlib=True), linestyle='-', alpha=0.3)
             
     # Show the grid
-    plt.grid(True, axis='x', color=(0.0, 0.0, 0.0), alpha=0.3, linestyle='--', linewidth=0.5)
+    plt.grid(True, axis='x', color=get_color('accent2', for_matplotlib=True), alpha=0.5, linestyle='--', linewidth=0.5)
     
     plt.xticks(rotation=45)  # Rotates the x-axis labels to avoid overlap    
-    plt.tight_layout()  # Adjusts the plot to ensure everything fits without overlapping
+    plt.gca().tick_params(axis='x', colors=get_color('accent2', for_matplotlib=True))  # Changes the x-axis tick labels
+    plt.gca().tick_params(axis='y', colors=get_color('accent2', for_matplotlib=True))  # Changes the y-axis tick labels
+        
+    plt.gca().set_facecolor(get_color('widget_minor', for_matplotlib=True))
+    
+    fig = plt.gcf()  # Get current figure
+    fig.set_facecolor(get_color('widget_minor', for_matplotlib=True))
     
     plt.savefig(os.path.join(os.getcwd(), dir, f'{fname}.{fmt}'))
     plt.close()
@@ -192,7 +220,6 @@ def run_temperature_plot_generation(begin_date, end_date):
     clean_data = _transform_noaa_data(raw_data)
     generate_water_temperature_plot(
         clean_data,
-        title='Washington Channel: Water Temperature',
         ylab='Water Temperature (F)',
         fname='watertemp'
     )
