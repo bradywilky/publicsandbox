@@ -12,7 +12,7 @@ import pandas as pd
 
 # this is the API key I have for OpenWeatherMap
 def _API_KEY():
-    return os.environ.get('OPENWEATHERMAP_API_KEY')
+    return os.environ.get('OPENWEATHERMAP_API_KEY', 'NULL')
     
 def _wind_degree_to_direction(degree):
     directions = [
@@ -139,9 +139,14 @@ def weather_api_call():
         
     url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={exc}&appid={api_key}&units=imperial"
     response = requests.get(url)
-    data = response.json()
     
-    return data
+    if response.status_code == 401:
+        print(f'Weather data status code 401 with API Key "{api_key}".')
+        with open('datacache/default_weather_data.json', 'r') as f:
+        
+            return json.loads(f.read())
+        
+    return response.json()
     
     
 def handle_daily_sun():
