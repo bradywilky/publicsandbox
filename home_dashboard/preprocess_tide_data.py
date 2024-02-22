@@ -1,7 +1,8 @@
-import json, requests
 from datetime import datetime, timedelta
 
 import pandas as pd
+
+from pull_base_tide_data import get_base_tide_data
 
 
 def _yesterday():
@@ -15,64 +16,25 @@ def _today():
 def _tomorrow():
     return datetime.now() + timedelta(days=1)
 
+
 def _twmorrow():
     return datetime.now() + timedelta(days=2)
+    
 
-    
-def _get_raw_prediction_pddf(begin_date='20200101', end_date='20200101'):
-    # Specify the API endpoint
-    base_url = "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter"
+BASE_TIDE_DATA = get_base_tide_data(
+    _yesterday().strftime('%Y%m%d'),
+    _twmorrow().strftime('%Y%m%d')
+)
 
-    # Specify your parameters
-    params = {
-        'begin_date': begin_date,  # Start date (YYYYMMDD)
-        'end_date': end_date,    # End date (YYYYMMDD)
-        'station': '8594900',      # Station ID
-        'product': 'predictions',        # Type of data
-        'datum': 'MLLW',           # Datum
-        'units': 'english',        # Units (english/metric)
-        'time_zone': 'lst',        # Time Zone
-        'format': 'json',          # Format of the response
-        'application': 'your_app_name',  # Your application name
-        'interval': 'hilo'         # Interval (e.g., high/low tide)
-    }
 
-    # Make the request
-    response = requests.get(base_url, params=params)
+def _filter_tide_data(begin_date, end_date):
+    begin_filter = (BASE_TIDE_DATA['Timestamp'].dt.strftime('%Y%m%d') >= begin_date)
+    end_filter = (BASE_TIDE_DATA['Timestamp'].dt.strftime('%Y%m%d') <= end_date)
+    return BASE_TIDE_DATA[begin_filter & end_filter]
 
-    # Check if the request was successful
-    if response.status_code == 200:
-        
-        with open('datacache/temp_tide_pred.txt', 'w') as f:
-            f.write(json.dumps(response.json()))
-        return pd.DataFrame(response.json()['predictions'])[['t', 'type']]
-    else:
-        try:
-            with open('datacache/temp_tide_pred.txt', 'r') as f:
-                response_json = json.loads(f.read())    
-            return pd.DataFrame(response_json['predictions'])[['t', 'type']]
-        except:
-            return pd.DataFrame(columns=['t', 'type'])
-        
-def _format_prediction_pddf(pddf_raw):
-    pddf = pddf_raw.rename(columns={'t': 'Timestamp', 'type': 'Tide'})
-    
-    val_subs = {'H': 'High', 'L': 'Low'}
-    pddf['Tide'] = pddf['Tide'].replace(val_subs)
-    pddf['Timestamp'] = pd.to_datetime(pddf['Timestamp'], format='%Y-%m-%d %H:%M')
-    
-    return pddf
-    
-    
-def _get_prediction_pddf(begin_date, end_date):
-    pddf_raw = _get_raw_prediction_pddf(begin_date, end_date)
-    pddf_fmt = _format_prediction_pddf(pddf_raw)
-    
-    return pddf_fmt
-    
-   
+
 def _get_closest_tide(proximity):
-    prediction_pddf = _get_prediction_pddf(
+    prediction_pddf = _filter_tide_data(
         begin_date=_yesterday().strftime('%Y%m%d'),
         end_date=_tomorrow().strftime('%Y%m%d')
     )
@@ -124,7 +86,7 @@ def get_closest_tide_display_strings():
 
 
 def get_future_tides_display_data():
-    df = _get_prediction_pddf(
+    df = _filter_tide_data(
         begin_date=_today().strftime('%Y%m%d'),
         end_date=_twmorrow().strftime('%Y%m%d')
     )
@@ -158,3 +120,32 @@ def get_future_tides_display_data():
         }
         display_list.append(prediction_dict)
     return display_list
+    
+
+def get_tide_clock_file():
+    prior_tide = _get_closest_tide('prior')
+    prior_tide_time = prior_tide['Timestamp'].iloc[0]
+    prior_tide_type = prior_tide['Tide'].iloc[0]
+    next_tide = _get_closest_tide('next')
+    next_tide_time = next_tide['Timestamp'].iloc[0]
+    next_tide_type = next_tide['Tide'].iloc[0]
+
+    length = 12
+    time_difference = (next_tide_time - prior_tide_time)/length
+
+    # getting a starting point for the search
+    current_time = datetime.now()
+    min_dist = current_time - prior_tide_time
+    pos = 0
+
+    for i in range(length+1):
+        incremented_time = prior_tide_time + time_difference * i
+        if abs(current_time - incremented_time) < min_dist:  # min_dist will always be >= 0
+            pos = i
+            min_dist = abs(current_time - incremented_time)
+
+    if prior_tide_type == 'Low':
+        pos += 12
+        pos = pos % 24
+        
+    return f'assets/tide_clock/tideclock_pos_{pos}.png'

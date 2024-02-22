@@ -79,7 +79,7 @@ def _extract_sun_dict(data, status_type='current'):
 def pull_current_weather(data):
     weather_data = {
         'location': 'Alexandria, VA',
-        'temperature': f'{_extract_temperature(data)}°F',
+        'temperature': f'{_extract_temperature(data)}°',
         'description': _extract_description(data),
         'wind': f'{_extract_wind_speed(data)} mph {_extract_wind_direction(data)}',
         'pressure': _extract_pressure(data),
@@ -98,7 +98,7 @@ def pull_hourly_forecast(data):
         
         weather_data = {
             'time': time,
-            'temperature': f"{_extract_temperature(hourly_forecast, status_type='hourly')}°F",
+            'temperature': f"{_extract_temperature(hourly_forecast, status_type='hourly')}°",
             'weather': _extract_description(hourly_forecast, status_type='hourly'),
             'wind': f"{_extract_wind_speed(hourly_forecast, status_type='hourly')} mph {_extract_wind_direction(hourly_forecast, status_type='hourly')}",
             'precip': '100%'
@@ -119,8 +119,8 @@ def pull_daily_forecast(data):
         weather_data = {
             'date': date,
             'day': day,            
-            'hightemp': f"{round(daily_forecast['temp']['max'])}°F",
-            'lowtemp': f"{round(daily_forecast['temp']['min'])}°F",
+            'hightemp': f"{round(daily_forecast['temp']['max'])}°",
+            'lowtemp': f"{round(daily_forecast['temp']['min'])}°",
             'weather': daily_forecast['weather'][0]['description'],
             'wind': f"{round(daily_forecast['wind_speed'])} mph {_wind_degree_to_direction(daily_forecast['wind_deg'])}"
         }

@@ -18,6 +18,11 @@ hourly_forecast_list = pull_hourly_forecast(weather_data)
 current_weather_dict = pull_current_weather(weather_data)
 
 
+# needed to correct the spacing, since we want the temperature number to be spaced without consideration of the
+# degree sign. Applying a left margin compensates for the spacing
+def _get_temp_left_margin(font_size):
+        return f'{round(font_size * 0.37)}px'
+
 def get_tide_graph_widget():
     try:
         run_temperature_plot_generation(
@@ -34,6 +39,8 @@ def get_tide_graph_widget():
 
 def get_current_weather_widget():
 
+    temperature_font = 100
+    
     return html.Div(
         id='weather-widget',
         style={
@@ -52,7 +59,15 @@ def get_current_weather_widget():
                 src=get_weather_description_image_switch(current_weather_dict['description']),
                 style={'object-fit': 'contain', 'max-width': '40%', 'max-height': '40%'}
             ),
-            html.P(current_weather_dict['temperature'], style={'fontSize': 100, 'marginTop': '5px','marginBottom': '5px'}),                      
+            html.P(
+                current_weather_dict['temperature'],
+                style={
+                    'fontSize': temperature_font,
+                    'marginTop': '5px',
+                    'marginBottom': '5px',
+                    'marginLeft': _get_temp_left_margin(temperature_font),
+                }
+            ),                      
         ],
         
     )
@@ -111,6 +126,8 @@ def get_hourly_weather_div(hourly_weather_dict):
     weather = hourly_weather_dict['weather']
     time = hourly_weather_dict['time']
 
+    temperature_font = 17
+
     div = html.Div(
         style={
             'padding': '3px',           # Adds some space inside the box around the text
@@ -129,7 +146,12 @@ def get_hourly_weather_div(hourly_weather_dict):
                 src=get_weather_description_image_switch(weather),
                 style={'object-fit': 'contain', 'max-width': '50%', 'max-height': '50%'}
             ),
-            html.P(temperature, style={'fontSize': 17, 'marginTop': '3px', 'marginBottom': '2px'}),
+            html.P(temperature, style={
+                'fontSize': temperature_font,
+                'marginTop': '3px',
+                'marginBottom': '2px',
+                'marginLeft': _get_temp_left_margin(temperature_font)}
+            ),
             html.P(wind, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),            
             html.Hr(style={'border': f'1px solid {get_color("accent2")}', 'width': '50px', 'margin': '10px 0'}),
             html.P(time, style={'fontSize': 13, 'fontWeight': 'bold', 'marginTop': '2px', 'marginBottom': '0px'}),
