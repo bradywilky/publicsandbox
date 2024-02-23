@@ -21,7 +21,7 @@ app.layout = html.Div(
         html.Div(id='tides-widget-container', children=[get_tides_widget()]),
         dcc.Interval(
             id='interval-component',
-            interval=300000,  # .5 minutes in milliseconds
+            interval=900000,  # 15 minutes in milliseconds
             n_intervals=0
         )
     ]
