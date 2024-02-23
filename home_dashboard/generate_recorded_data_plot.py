@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('Agg')  # Set non-interactive backend
+
 import requests, json, os, statistics
 from datetime import datetime, timedelta
 
@@ -105,12 +108,14 @@ def generate_water_level_plot(
 
     
     # Plotting
-    plt.figure(figsize=(10, 5))
-    plt.plot(clean_data['t'], clean_data['v'], color=get_color('accent2', for_matplotlib=True))
-    plt.ylabel(ylab, color=get_color('accent2', for_matplotlib=True))
+    fig, ax = plt.subplots(figsize=(10, 5))
+    
+    ax.plot(clean_data['t'], clean_data['v'], color=get_color('accent2', for_matplotlib=True))
+    ax.set_ylabel(ylab, color=get_color('accent2', for_matplotlib=True))
     if title:
-        plt.title(title)
-    plt.axhline(
+        ax.set_title(title)
+        
+    ax.axhline(
         y=statistics.mean(clean_data['v']),
         color=get_color('accent1', for_matplotlib=True),
         linestyle='-',
@@ -118,28 +123,27 @@ def generate_water_level_plot(
     )
         
     if len(custom_xticks) > 0:
-        plt.xticks(custom_xticks['t'], custom_xticks['t_display'])
+        ax.set_xticks(custom_xticks['t'], custom_xticks['t_display'])
     else:
         TOTAL_DAYS_IN_DATA = 7
-        plt.xticks(clean_data['t'], clean_data['t_display'])
-        plt.gca().xaxis.set_major_locator(ticker.MaxNLocator(TOTAL_DAYS_IN_DATA*2 + 1))
+        ax.set_xticks(clean_data['t'], clean_data['t_display'])
+        ax.xaxis.set_major_locator(ticker.MaxNLocator(TOTAL_DAYS_IN_DATA*2 + 1))
 
-    plt.xticks(rotation=45)  # Rotates the x-axis labels to avoid overlap   
-    ax = plt.gca()
     for label in ax.get_xticklabels():
         label.set_ha('right') # For some reason, 'right' moves the labels left
 
-    ax.tick_params(axis='x', colors=get_color('accent2', for_matplotlib=True))  # Changes the x-axis tick labels
+    ax.tick_params(axis='x', rotation=45, colors=get_color('accent2', for_matplotlib=True))  # Changes the x-axis tick labels
     ax.tick_params(axis='y', colors=get_color('accent2', for_matplotlib=True))  # Changes the y-axis tick labels
         
     ax.set_facecolor(get_color('widget_minor', for_matplotlib=True))
-    
-    fig = plt.gcf()  # Get current figure
     fig.set_facecolor(get_color('widget_minor', for_matplotlib=True))
 
-    plt.tight_layout()  # Adjusts the plot to ensure everything fits without overlapping
-    plt.savefig(os.path.join(os.getcwd(), dir, f'{fname}.{fmt}'))
-    plt.close()
+    for spine in ['top', 'bottom', 'left', 'right']:
+        ax.spines[spine].set_edgecolor(get_color('accent2', for_matplotlib=True))     
+
+    fig.tight_layout()  # Adjusts the plot to ensure everything fits without overlapping
+    fig.savefig(os.path.join(os.getcwd(), dir, f'{fname}.{fmt}'))
+    plt.close(fig)
     
     
 def generate_water_temperature_plot(
@@ -151,46 +155,42 @@ def generate_water_temperature_plot(
     fmt='png'
 ):
     
-    # Plotting
-    plt.figure(figsize=(10, 5))
-    plt.plot(clean_data['t'], clean_data['v'], color=get_color('accent2', for_matplotlib=True))
-    plt.ylabel(ylab)
+    fig, ax = plt.subplots(figsize=(10, 5))
+    ax.plot(clean_data['t'], clean_data['v'], color=get_color('accent2', for_matplotlib=True))
+    ax.set_ylabel(ylab, color=get_color('accent2', for_matplotlib=True))
     if title:
-        plt.title(title)
+        ax.set_title(title)
 
-    # Set x-axis major ticks to every day
-    plt.gca().xaxis.set_major_locator(mdates.DayLocator())
-    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
-
-    # Set x-axis minor ticks to every 3 hours
-    plt.gca().xaxis.set_minor_locator(mdates.HourLocator(byhour=range(0, 24, 3)))
-    plt.gca().xaxis.set_minor_formatter(mdates.DateFormatter('%H:%M'))
+    ax.xaxis.set_major_locator(mdates.DayLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
+    ax.xaxis.set_minor_locator(mdates.HourLocator(byhour=range(0, 24, 3)))
+    ax.xaxis.set_minor_formatter(mdates.DateFormatter('%H:%M'))
 
     # Rotate the labels to improve readability
-    plt.gcf().autofmt_xdate()
+    fig.autofmt_xdate()
 
     # Only show the major tick labels (every day) and hide minor tick labels (every 3 hours)
-    plt.setp(plt.gca().xaxis.get_minorticklabels(), visible=False)
+    plt.setp(ax.xaxis.get_minorticklabels(), visible=False)
 
     # Add horizontal lines at every 5 degrees
     for i in range(20):
         if min(clean_data['v'])-1 <= i*5 <= max(clean_data['v'])+1:
-            plt.axhline(y=i*5, color=get_color('accent2', for_matplotlib=True), linestyle='-', alpha=0.3)
+            ax.axhline(y=i*5, color=get_color('accent2', for_matplotlib=True), linestyle='-', alpha=0.3)
             
     # Show the grid
-    plt.grid(True, axis='x', color=get_color('accent2', for_matplotlib=True), alpha=0.5, linestyle='--', linewidth=0.5)
-    
-    plt.xticks(rotation=45)  # Rotates the x-axis labels to avoid overlap    
-    plt.gca().tick_params(axis='x', colors=get_color('accent2', for_matplotlib=True))  # Changes the x-axis tick labels
-    plt.gca().tick_params(axis='y', colors=get_color('accent2', for_matplotlib=True))  # Changes the y-axis tick labels
+    ax.grid(True, axis='x', color=get_color('accent2', for_matplotlib=True), alpha=0.5, linestyle='--', linewidth=0.5)
+       
+    ax.tick_params(axis='x', rotation=45, colors=get_color('accent2', for_matplotlib=True))  # Changes the x-axis tick labels
+    ax.tick_params(axis='y', colors=get_color('accent2', for_matplotlib=True))  # Changes the y-axis tick labels
         
-    plt.gca().set_facecolor(get_color('widget_minor', for_matplotlib=True))
-    
-    fig = plt.gcf()  # Get current figure
+    ax.set_facecolor(get_color('widget_minor', for_matplotlib=True))
     fig.set_facecolor(get_color('widget_minor', for_matplotlib=True))
     
-    plt.savefig(os.path.join(os.getcwd(), dir, f'{fname}.{fmt}'))
-    plt.close()
+    for spine in ['top', 'bottom', 'left', 'right']:
+        ax.spines[spine].set_edgecolor(get_color('accent2', for_matplotlib=True)) 
+    
+    fig.savefig(os.path.join(os.getcwd(), dir, f'{fname}.{fmt}'))
+    plt.close(fig)
     
     return True
     
