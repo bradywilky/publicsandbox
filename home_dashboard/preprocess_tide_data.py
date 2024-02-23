@@ -37,7 +37,8 @@ def _get_closest_tide(proximity):
     prediction_pddf = _filter_tide_data(
         begin_date=_yesterday().strftime('%Y%m%d'),
         end_date=_tomorrow().strftime('%Y%m%d')
-    )
+    ).copy()
+    
     prediction_pddf['difference_to_now'] = prediction_pddf['Timestamp'] - _today()
     prediction_pddf['abs_difference_to_now'] = abs(prediction_pddf['difference_to_now'])
     
