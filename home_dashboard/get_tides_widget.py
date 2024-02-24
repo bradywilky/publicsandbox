@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import dash
 from dash import html, dcc, dash_table
 
-from preprocess_tide_data import get_closest_tide_display_strings, get_future_tides_display_data, get_tide_clock_file
+from preprocess_tide_data import get_closest_tide_display_strings, get_future_tides_display_data, get_tide_clock_display_config
 from generate_recorded_data_plot import run_tidal_plot_generation
 from utils.utils import get_color
 
@@ -11,21 +11,33 @@ from utils.utils import get_color
 MAIN_WIDTH = 950
 MAIN_HEIGHT = 1100
 
-# def _get_
+
 def get_tide_clock_widget():
+
+    clock_display_conf = get_tide_clock_display_config()
+    clock_image_filepath = clock_display_conf['filename']
+    tide_to_display = clock_display_conf['tide_to_display']
 
     # used in _get_time_P function
     RELATIVE_TIDES_DISPLAY_STRINGS = get_closest_tide_display_strings()
     
-    def _get_time_P(relative_time_key):
-        time_display = RELATIVE_TIDES_DISPLAY_STRINGS[relative_time_key]['time']
+    
+    def _get_time_P(tide_key):
+        next_tide = RELATIVE_TIDES_DISPLAY_STRINGS['next']
+        
+        # we only want to display the immediate next tide
+        if tide_key == next_tide['tide']:
+            time_display = next_tide['time']
+        else:
+            time_display = ''
+            
         return html.P(
             time_display, style={'fontSize': 20, 'marginTop': '0px', 'marginBottom': '0px'}
         )
         
         
     clock_image = html.Img(
-        src=get_tide_clock_file(),
+        src=clock_image_filepath,
         style={'width': '450px', 'height': '450px'}
     )
     
@@ -42,9 +54,9 @@ def get_tide_clock_widget():
             'alignItems': 'center',
         },
         children=[
-            _get_time_P('prior'),
+            _get_time_P('High'),
             clock_image,
-            _get_time_P('next'),
+            _get_time_P('Low'),
         ]
     )
     

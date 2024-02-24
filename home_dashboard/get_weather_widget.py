@@ -7,25 +7,21 @@ from pull_weather_data import weather_api_call, pull_daily_forecast, pull_hourly
 from generate_recorded_data_plot import run_temperature_plot_generation
 from utils.utils import get_color, get_weather_description_image_switch
 
-today = datetime.now()
-yesterday = today + timedelta(days=-1)
-priorweek = today + timedelta(days=-6)
-tomorrow = today + timedelta(days=1)
-
-weather_data = weather_api_call()
-daily_forecast_list = pull_daily_forecast(weather_data)
-hourly_forecast_list = pull_hourly_forecast(weather_data)
-current_weather_dict = pull_current_weather(weather_data)
-
 
 # needed to correct the spacing, since we want the temperature number to be spaced without consideration of the
 # degree sign. Applying a left margin compensates for the spacing
 def _get_temp_left_margin(font_size):
         return f'{round(font_size * 0.37)}px'
 
-def get_tide_graph_widget():
+
+def get_water_temperature_graph_widget():
+
+    priorweek = datetime.now() + timedelta(days=-6)
+    today = datetime.now()
+    
     try:
         run_temperature_plot_generation(
+            
             begin_date=priorweek.strftime('%Y%m%d'),
             end_date=today.strftime('%Y%m%d'),
         )
@@ -37,7 +33,28 @@ def get_tide_graph_widget():
     )
     
 
-def get_current_weather_widget():
+def get_current_time_widget():
+    current_time = datetime.now().strftime('%I:%M %p').lstrip('0')
+    
+    return html.Div(
+        id='current-time-widget',
+        style={
+            'margin': '10px',
+            'width': '300px',
+            'height': '100px',
+            'display': 'flex',
+            'flex-direction': 'column',
+            'alignItems': 'center',
+            'backgroundColor': get_color('widget_minor'),
+            'border-radius': '15px',
+        },
+        children=[
+            html.P(current_time, style={'fontSize': 80, 'marginTop': '5px', 'marginBottom': '5px'}),
+        ]
+    )
+
+
+def get_current_weather_widget(current_weather_dict):
 
     temperature_font = 100
     
@@ -160,7 +177,7 @@ def get_hourly_weather_div(hourly_weather_dict):
     
     return div
     
-def get_hourly_weather_widget():
+def get_hourly_weather_widget(hourly_forecast_list):
     hourly_weather_children = [get_hourly_weather_div(i) for i in hourly_forecast_list]
     hourly_weather_div = html.Div(
         children = [   
@@ -217,7 +234,7 @@ def get_daily_weather_div(daily_weather_dict):
     
     return div
     
-def get_daily_weather_widget():
+def get_daily_weather_widget(daily_forecast_list):
     daily_weather_children = [get_daily_weather_div(i) for i in daily_forecast_list]
     daily_weather_div = html.Div(
         children = [
@@ -240,6 +257,11 @@ def get_daily_weather_widget():
     
     
 def get_weather_widget():
+    weather_data = weather_api_call()
+    daily_forecast_list = pull_daily_forecast(weather_data)
+    hourly_forecast_list = pull_hourly_forecast(weather_data)
+    current_weather_dict = pull_current_weather(weather_data)
+
     return html.Div(
         style={
 
@@ -254,7 +276,8 @@ def get_weather_widget():
             'box-shadow': '0 0 15px rgba(0, 0, 0, 0.5)',
         },
         children=[
-
+            
+            html.Div(id='time-widget-container', children=[get_current_time_widget()]),
             html.Div(
                 style={'display': 'flex', 'flex-direction': 'row', 'marginBottom': '100px'},
                 children=[
@@ -262,8 +285,8 @@ def get_weather_widget():
                     # current weather and info in top left
                     html.Div(
                         style={'display': 'flex', 'flex-direction': 'column', 'alignItems': 'center',},
-                        children = [
-                            get_current_weather_widget(),
+                        children = [                            
+                            get_current_weather_widget(current_weather_dict),
                             get_current_info_div(current_weather_dict),
                         ]        
                     ),
@@ -272,12 +295,12 @@ def get_weather_widget():
                     html.Div(
                         style={'display': 'flex', 'flex-direction': 'column', 'alignItems': 'center',},
                         children = [                            
-                            get_hourly_weather_widget(),
-                            get_tide_graph_widget()
+                            get_hourly_weather_widget(hourly_forecast_list),
+                            get_water_temperature_graph_widget()
                         ]
                     )
                 ]
             ),
-            get_daily_weather_widget()
+            get_daily_weather_widget(daily_forecast_list)
         ]
     )

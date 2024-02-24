@@ -3,7 +3,7 @@ from dash import html, dcc
 from dash.dependencies import Input, Output
 
 from get_tides_widget import get_tides_widget
-from get_weather_widget import get_weather_widget
+from get_weather_widget import get_weather_widget, get_current_time_widget
 from utils.utils import set_background_color
 
 set_background_color()  
@@ -23,6 +23,11 @@ app.layout = html.Div(
             id='interval-component',
             interval=900000,  # 15 minutes in milliseconds
             n_intervals=0
+        ),
+        dcc.Interval(
+            id='time-interval-component',
+            interval=60000,  # 1 minute in milliseconds
+            n_intervals=0
         )
     ]
 )
@@ -31,6 +36,12 @@ app.layout = html.Div(
 # The decorator syntax in Python uses the @ symbol and is considered syntactic sugar.
 # It makes your code cleaner and more readable. For example, @my_decorator applied above
 # a function definition is just a shorthand for my_function = my_decorator(my_function).
+
+# A callback is supposed to be used like this:
+# @app.callback(
+    # Output({Element ID to be Updated}, {Parameter of Element to Update}),
+    # [Input({Element ID that contains update trigger}, {Parameter of Element that when the value of the parameter changes, the update is triggered})]
+ 
 @app.callback(
     Output('weather-widget-container', 'children'),
     [Input('interval-component', 'n_intervals')]
@@ -44,6 +55,14 @@ def update_weather_widget(n):
 )
 def update_tides_widget(n):
     return [get_tides_widget()]
+    
+@app.callback(
+    Output('time-widget-container', 'children'),
+    [Input('time-interval-component', 'n_intervals')]
+)
+def update_time_widget(n):
+    return [get_current_time_widget()]    
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)

@@ -5,6 +5,9 @@ import pandas as pd
 from pull_base_tide_data import get_base_tide_data
 
 
+# The below helper functions should be fine regarding updating widgets, since whenever
+# they're used it's calling datetime.now() each time instead of setting some final today=datetime.now()
+
 def _yesterday():
     return datetime.now() + timedelta(days=-1)
     
@@ -19,22 +22,17 @@ def _tomorrow():
 
 def _twmorrow():
     return datetime.now() + timedelta(days=2)
-    
-
-BASE_TIDE_DATA = get_base_tide_data(
-    _yesterday().strftime('%Y%m%d'),
-    _twmorrow().strftime('%Y%m%d')
-)
 
 
-def _filter_tide_data(begin_date, end_date):
+def _filter_tide_data(BASE_TIDE_DATA, begin_date, end_date):
     begin_filter = (BASE_TIDE_DATA['Timestamp'].dt.strftime('%Y%m%d') >= begin_date)
     end_filter = (BASE_TIDE_DATA['Timestamp'].dt.strftime('%Y%m%d') <= end_date)
     return BASE_TIDE_DATA[begin_filter & end_filter]
 
 
-def _get_closest_tide(proximity):
+def _get_closest_tide(BASE_TIDE_DATA, proximity):
     prediction_pddf = _filter_tide_data(
+        BASE_TIDE_DATA,
         begin_date=_yesterday().strftime('%Y%m%d'),
         end_date=_tomorrow().strftime('%Y%m%d')
     ).copy()
@@ -55,6 +53,11 @@ def _get_closest_tide(proximity):
     
 def get_closest_tide_display_strings():
     
+    BASE_TIDE_DATA = get_base_tide_data(
+        _yesterday().strftime('%Y%m%d'),
+        _twmorrow().strftime('%Y%m%d')
+    )
+
     tide_icon_fname_sub = {
         'High': 'hightide',
         'Low': 'lowtide'
@@ -63,7 +66,7 @@ def get_closest_tide_display_strings():
     display_strings = dict()
     display_strings['current'] = dict()
     for i in ['prior', 'next']:
-        closest_prediction = _get_closest_tide(i)
+        closest_prediction = _get_closest_tide(BASE_TIDE_DATA, i)
         tide = closest_prediction['Tide'].iloc[0]
         formatted_time = closest_prediction['Timestamp'].dt.strftime('%I:%M %p, %b %d').str.lstrip('0').iloc[0].split(',')[0]
         
@@ -87,7 +90,12 @@ def get_closest_tide_display_strings():
 
 
 def get_future_tides_display_data():
+    BASE_TIDE_DATA = get_base_tide_data(
+        _yesterday().strftime('%Y%m%d'),
+        _twmorrow().strftime('%Y%m%d')
+    )
     df = _filter_tide_data(
+        BASE_TIDE_DATA,
         begin_date=_today().strftime('%Y%m%d'),
         end_date=_twmorrow().strftime('%Y%m%d')
     )
@@ -123,11 +131,16 @@ def get_future_tides_display_data():
     return display_list
     
 
-def get_tide_clock_file():
-    prior_tide = _get_closest_tide('prior')
+def get_tide_clock_display_config():
+    BASE_TIDE_DATA = get_base_tide_data(
+        _yesterday().strftime('%Y%m%d'),
+        _twmorrow().strftime('%Y%m%d')
+    )    
+
+    prior_tide = _get_closest_tide(BASE_TIDE_DATA, 'prior')
     prior_tide_time = prior_tide['Timestamp'].iloc[0]
     prior_tide_type = prior_tide['Tide'].iloc[0]
-    next_tide = _get_closest_tide('next')
+    next_tide = _get_closest_tide(BASE_TIDE_DATA, 'next')
     next_tide_time = next_tide['Timestamp'].iloc[0]
     next_tide_type = next_tide['Tide'].iloc[0]
 
@@ -149,4 +162,7 @@ def get_tide_clock_file():
         pos += 12
         pos = pos % 24
         
-    return f'assets/tide_clock/tideclock_pos_{pos}.png'
+    return {
+        'filename': f'assets/tide_clock/tideclock_pos_{pos}.png',
+        'tide_to_display': next_tide_type,
+    }
