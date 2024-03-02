@@ -53,10 +53,7 @@ def _get_closest_tide(BASE_TIDE_DATA, proximity):
     
 def get_closest_tide_display_strings():
     
-    BASE_TIDE_DATA = get_base_tide_data(
-        _yesterday().strftime('%Y%m%d'),
-        _twmorrow().strftime('%Y%m%d')
-    )
+    BASE_TIDE_DATA = get_base_tide_data()
 
     tide_icon_fname_sub = {
         'High': 'hightide',
@@ -90,10 +87,7 @@ def get_closest_tide_display_strings():
 
 
 def get_future_tides_display_data():
-    BASE_TIDE_DATA = get_base_tide_data(
-        _yesterday().strftime('%Y%m%d'),
-        _twmorrow().strftime('%Y%m%d')
-    )
+    BASE_TIDE_DATA = get_base_tide_data()
     df = _filter_tide_data(
         BASE_TIDE_DATA,
         begin_date=_today().strftime('%Y%m%d'),
@@ -132,10 +126,7 @@ def get_future_tides_display_data():
     
 
 def get_tide_clock_display_config():
-    BASE_TIDE_DATA = get_base_tide_data(
-        _yesterday().strftime('%Y%m%d'),
-        _twmorrow().strftime('%Y%m%d')
-    )    
+    BASE_TIDE_DATA = get_base_tide_data()    
 
     prior_tide = _get_closest_tide(BASE_TIDE_DATA, 'prior')
     prior_tide_time = prior_tide['Timestamp'].iloc[0]

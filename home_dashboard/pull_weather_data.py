@@ -4,12 +4,13 @@
 
 
 
-import requests, os, json
+import requests, os, json, inspect
 from datetime import datetime
 
 import pandas as pd
 
 
+WEATHER_PRED_PATH = 'datacache/temp_weather_predictions.json'
 # this is the API key I have for OpenWeatherMap
 def _API_KEY():
     return os.environ.get('OPENWEATHERMAP_API_KEY', 'NULL')
@@ -109,6 +110,7 @@ def pull_hourly_forecast(data):
 
 
 def pull_daily_forecast(data):
+
     daily_forecasts = data['daily'][1:8]  # Get the first 8 hours of forecasts
 
     daily_forecast_list = list()
@@ -130,6 +132,10 @@ def pull_daily_forecast(data):
     
 
 def weather_api_call():
+    print('calling weather API')
+    stack = inspect.stack()
+    caller_function = stack[1].function
+    print(f"Called by {caller_function}")     
     api_key = _API_KEY()
     
     # Alexandria, VA
@@ -140,14 +146,48 @@ def weather_api_call():
     url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={exc}&appid={api_key}&units=imperial"
     response = requests.get(url)
     
-    if response.status_code == 401:
-        print(f'Weather data status code 401 with API Key "{api_key}".')
+    # Check if the request was successful
+    if response.status_code == 200:
+        data_json = { 
+            'datetime': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            'data': json.dumps(response.json())
+        }
+        with open(WEATHER_PRED_PATH, 'w') as f:
+            f.write(json.dumps(data_json))
+
+    else:
+    
+        if response.status_code == 401:
+            print(f'Weather data status code 401 with API Key "{api_key}".')
+    
+        print(f'Loading default JSON due to status code {response.status_code}')
         with open('datacache/default_weather_data.json', 'r') as f:
         
-            return json.loads(f.read())
+            return json.loads(f.read())            
+        
         
     return response.json()
     
+def _get_raw_prediction_data():
+    
+    def _load_data():
+        with open(WEATHER_PRED_PATH, 'r') as f:
+            data_json = json.loads(f.read())
+        return data_json
+
+    if os.path.exists(WEATHER_PRED_PATH):
+        data_json = _load_data()
+        
+        write_datetime = datetime.strptime(data_json['datetime'], '%Y-%m-%d %H:%M:%S')
+        difference_to_call = abs(write_datetime - datetime.now())
+        minute_difference_to_call = difference_to_call.total_seconds() / 60
+        
+        if minute_difference_to_call < 10:
+            return pd.DataFrame(json.loads(data_json['data'])['predictions'])[['t', 'type']]
+
+    _write_raw_prediction_pddf(begin_date, end_date)
+    return pd.DataFrame(json.loads(_load_data()['data'])['predictions'])[['t', 'type']]
+
     
 def handle_daily_sun():
     

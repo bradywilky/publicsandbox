@@ -1,4 +1,4 @@
-import os
+import os, inspect
 from datetime import datetime, timedelta
 import dash
 from dash import html, dcc, dash_table
@@ -35,23 +35,8 @@ def get_water_temperature_graph_widget():
 
 def get_current_time_widget():
     current_time = datetime.now().strftime('%I:%M %p').lstrip('0')
-    
-    return html.Div(
-        id='current-time-widget',
-        style={
-            'margin': '10px',
-            'width': '300px',
-            'height': '100px',
-            'display': 'flex',
-            'flex-direction': 'column',
-            'alignItems': 'center',
-            'backgroundColor': get_color('widget_minor'),
-            'border-radius': '15px',
-        },
-        children=[
-            html.P(current_time, style={'fontSize': 80, 'marginTop': '5px', 'marginBottom': '5px'}),
-        ]
-    )
+
+    return html.Span(current_time, style={'color': get_color('widget_alt3'), 'fontSize': 80, 'marginTop': '5px', 'marginBottom': '5px'})
 
 
 def get_current_weather_widget(current_weather_dict):
@@ -96,7 +81,7 @@ def get_current_info_div(current_weather_dict):
             'padding': '15px',           # Adds some space inside the box around the text
             'margin': '10px',            # Adds space outside the box
             'width': '110px',            # Sets the width of the box
-            'height': '80px',           # Sets the height of the box
+            'height': '60px',           # Sets the height of the box
             'backgroundColor': get_color('widget_minor'),
             'border-radius': '9px',
             
@@ -125,15 +110,8 @@ def get_current_info_div(current_weather_dict):
     )    
     
     return html.Div(
-        style={
-            'display': 'flex',
-            'flex-direction': 'row',
-            'alignItems': 'center',
-        },
-        children=[
-            sun_div,
-            wind_div
-        ]
+        style={'display': 'flex', 'flex-direction': 'row', 'alignItems': 'center',},
+        children=[sun_div, wind_div]
     )
 
     
@@ -177,20 +155,14 @@ def get_hourly_weather_div(hourly_weather_dict):
     
     return div
     
+
 def get_hourly_weather_widget(hourly_forecast_list):
     hourly_weather_children = [get_hourly_weather_div(i) for i in hourly_forecast_list]
     hourly_weather_div = html.Div(
-        children = [   
-            html.Div(
-                style={
-                    'display': 'flex',
-                    'flex-direction': 'row',
-                },
-                children=hourly_weather_children
-            )
-        ]
-    )
-    
+        style={'display': 'flex', 'flex-direction': 'row',},
+        children=hourly_weather_children
+    ) 
+        
     return hourly_weather_div
     
     
@@ -199,36 +171,40 @@ def get_daily_weather_div(daily_weather_dict):
     low = daily_weather_dict['lowtemp']
     wind = daily_weather_dict['wind']
     weather = daily_weather_dict['weather']
-    day = daily_weather_dict['day']
-    date = daily_weather_dict['date']
-    
+    day = daily_weather_dict['day'][0:3]
+    date = daily_weather_dict['date']   
 
     div = html.Div(
         style={
 
             'padding': '3px',           # Adds some space inside the box around the text
-            'margin': '3px',            # Adds space outside the box
+            'margin': '6px',            # Adds space outside the box
             'width': '120px',            # Sets the width of the box
-            'height': '120px',           # Sets the height of the box
+            'height': '140px',           # Sets the height of the box
             'backgroundColor': get_color('widget_minor'),
-            'border-radius': '4px', # rounds corners            
+            'border-radius': '10px', # rounds corners            
             'display': 'flex',
             'flex-direction': 'column',
             'alignItems': 'center',
         },
-        children=[
-            html.P(day, style={'fontSize': 18, 'fontWeight': 'bold', 'marginTop': '2px', 'marginBottom': '0px'}),    
-            html.P(date, style={'fontSize': 15, 'marginTop': '1px', 'marginBottom': '0px'}),
-            html.Hr(style={'border': f'1px solid {get_color("accent2")}', 'width': '50px', 'margin': '7px 0'}),
-            html.P(weather, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),            
-            html.P(wind, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),             
+        children=[        
+            html.Img(
+                src=get_weather_description_image_switch(weather),
+                style={'object-fit': 'contain', 'max-width': '50%', 'max-height': '50%'}
+            ),                     
             html.Div(
                 style={'display': 'flex', 'flex-direction': 'row', 'alignItems': 'center',},
                 children=[
                     html.P(high, style={'fontSize': 22, 'fontWeight': 'bold', 'marginTop': '0px', 'marginBottom': '2px', 'marginRight': '3px',}),
-                    html.P(low, style={'fontSize': 14, 'marginTop': '0px', 'marginBottom': '2px',}),
+                    html.P(low, style={'fontSize': 14, 'marginTop': '0px', 'marginBottom': '1px',}),
                 ]
             ),
+            # html.P(wind, style={'fontSize': 9, 'marginTop': '0px', 'marginBottom': '0px'}),              
+            html.Hr(style={'border': f'1px solid {get_color("accent2")}', 'width': '50px', 'margin': '7px 0'}),
+            html.P([
+                html.Span(day, style={'fontSize': 20, 'fontWeight': 'bold', 'marginRight': '6px'}),
+                html.Span(date, style={'fontSize': 15,}),
+            ], style={'marginTop': '2px', 'marginBottom': '0px'}),            
         ]
     )
     
@@ -237,27 +213,22 @@ def get_daily_weather_div(daily_weather_dict):
 def get_daily_weather_widget(daily_forecast_list):
     daily_weather_children = [get_daily_weather_div(i) for i in daily_forecast_list]
     daily_weather_div = html.Div(
-        children = [
-           # Include Google Font for Roboto
-            html.Link(
-                href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', 
-                rel='stylesheet'
-            ),    
-            html.Div(
-                style={
-                    'display': 'flex',
-                    'flex-direction': 'row',
-                },
-                children=daily_weather_children
-            )
-        ]
+        style={
+            'display': 'flex',
+            'flex-direction': 'row',
+            'marginTop': '0px'
+        },
+        children=daily_weather_children
     )
+
     
     return daily_weather_div
     
     
 def get_weather_widget():
+
     weather_data = weather_api_call()
+
     daily_forecast_list = pull_daily_forecast(weather_data)
     hourly_forecast_list = pull_hourly_forecast(weather_data)
     current_weather_dict = pull_current_weather(weather_data)
@@ -279,7 +250,7 @@ def get_weather_widget():
             
             html.Div(id='time-widget-container', children=[get_current_time_widget()]),
             html.Div(
-                style={'display': 'flex', 'flex-direction': 'row', 'marginBottom': '100px'},
+                style={'display': 'flex', 'flex-direction': 'row', 'marginBottom': '10px'},
                 children=[
                 
                     # current weather and info in top left
