@@ -1,12 +1,23 @@
-import dash
+import dash, argparse
 from dash import html, dcc
 from dash.dependencies import Input, Output
 
 from get_tides_widget import get_tides_widget
-from get_weather_widget import get_weather_widget, get_current_time_widget
+from get_weather_widget import get_weather_widget, get_current_time_widget, get_current_date_widget
 from utils.utils import set_background_color
 
+
+parser = argparse.ArgumentParser(description='Your script description')
+parser.add_argument('-l', '--lite', action='store_true', help='run in lite mode')
+args = parser.parse_args()
+
 set_background_color()  
+
+if args.lite:
+    datetime_interval = 86400000  # 24 hours in milliseconds
+    
+else:
+    datetime_interval = 60000  # 1 minute in milliseconds
 
 app = dash.Dash(__name__)
 
@@ -16,7 +27,7 @@ app.layout = html.Div(
         'flex-direction': 'column',
     },
     children=[
-        html.Div(id='weather-widget-container', children=[get_weather_widget()]),
+        html.Div(id='weather-widget-container', children=[get_weather_widget(args.lite)]),
         html.Hr(style={'border': '1px solid rgba(0, 0, 255, 0.2)', 'width': '50px', 'margin': '4px 0'}),
         html.Div(id='tides-widget-container', children=[get_tides_widget()]),
         dcc.Interval(
@@ -25,8 +36,8 @@ app.layout = html.Div(
             n_intervals=0
         ),
         dcc.Interval(
-            id='time-interval-component',
-            interval=60000,  # 1 minute in milliseconds
+            id='datetime-interval-component',
+            interval=datetime_interval,
             n_intervals=0
         )
     ]
@@ -47,7 +58,7 @@ app.layout = html.Div(
     [Input('interval-component', 'n_intervals')]
 )
 def update_weather_widget(n):
-    return [get_weather_widget()]
+    return [get_weather_widget(args.lite)]
 
 @app.callback(
     Output('tides-widget-container', 'children'),
@@ -57,10 +68,12 @@ def update_tides_widget(n):
     return [get_tides_widget()]
     
 @app.callback(
-    Output('time-widget-container', 'children'),
-    [Input('time-interval-component', 'n_intervals')]
+    Output('datetime-widget-container', 'children'),
+    [Input('datetime-interval-component', 'n_intervals')]
 )
-def update_time_widget(n):
+def update_datetime_widget(n):
+    if args.lite:
+        return [get_current_date_widget()]
     return [get_current_time_widget()]    
 
 

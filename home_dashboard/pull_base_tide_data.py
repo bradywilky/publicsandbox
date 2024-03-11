@@ -65,6 +65,7 @@ def _get_raw_prediction_pddf(begin_date, end_date):
         minute_difference_to_call = difference_to_call.total_seconds() / 60
         
         if minute_difference_to_call < 10:
+            'Pulling cached tide data.'
             return pd.DataFrame(json.loads(data_json['data'])['predictions'])[['t', 'type']]
 
     _write_raw_prediction_pddf(begin_date, end_date)

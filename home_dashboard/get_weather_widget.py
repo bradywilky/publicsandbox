@@ -39,6 +39,20 @@ def get_current_time_widget():
     return html.Span(current_time, style={'color': get_color('widget_alt3'), 'fontSize': 80, 'marginTop': '5px', 'marginBottom': '5px'})
 
 
+def get_current_date_widget():
+
+    current_date = datetime.now()
+
+    if 10 <= current_date.day <= 20:
+        suffix = 'th'
+    else:
+        suffix = {1: 'st', 2: 'nd', 3: 'rd'}.get(current_date.day % 10, 'th')
+
+    formatted_date = current_date.strftime(f"%A, %B {str(current_date.day) + suffix}")
+
+    return html.Span(formatted_date, style={'color': get_color('widget_alt3'), 'fontSize': 80, 'marginTop': '5px', 'marginBottom': '5px'})
+
+
 def get_current_weather_widget(current_weather_dict):
 
     temperature_font = 100
@@ -225,9 +239,14 @@ def get_daily_weather_widget(daily_forecast_list):
     return daily_weather_div
     
     
-def get_weather_widget():
+def get_weather_widget(run_lite):
 
     weather_data = weather_api_call()
+
+    if run_lite:
+        datetime_widget_child = get_current_date_widget()
+    else:
+        datetime_widget_child = get_current_time_widget()        
 
     daily_forecast_list = pull_daily_forecast(weather_data)
     hourly_forecast_list = pull_hourly_forecast(weather_data)
@@ -248,7 +267,7 @@ def get_weather_widget():
         },
         children=[
             
-            html.Div(id='time-widget-container', children=[get_current_time_widget()]),
+            html.Div(id='datetime-widget-container', children=[datetime_widget_child]),
             html.Div(
                 style={'display': 'flex', 'flex-direction': 'row', 'marginBottom': '10px'},
                 children=[
