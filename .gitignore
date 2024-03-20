@@ -1,2 +1,5 @@
 home_dashboard/venv
 home_dashboard/home_dashboard_venv
+home_dashboard/datacache
+
+watertemp_timeseries/timeseries_venv
