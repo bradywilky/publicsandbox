@@ -13,6 +13,7 @@ args = parser.parse_args()
 
 set_background_color()  
 
+args.lite = True
 if args.lite:
     datetime_interval = 86400000  # 24 hours in milliseconds
     
