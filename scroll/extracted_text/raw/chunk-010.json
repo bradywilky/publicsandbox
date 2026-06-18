@@ -1,0 +1,175 @@
+{
+  "posts": [
+    {
+      "author_name": "Unspecified",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi everyone! I’m moving to Raleigh for work and currently looking for a room to rent near the Crabtree Valley Mall area (or within about a 10-minute drive). A little about what I’m looking for: Budget: up to $900/month (utilities inc.) Prefer living with women",
+      "location": "Raleigh, North Carolina (Near Crabtree Area)",
+      "price_or_budget": "up to $900/month (utilities inc.)",
+      "availability_or_move_in": null,
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "3d ago",
+      "constraints_or_preferences": [
+        "Prefer living with women"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "William Degnan \"Lloyd\" (via Bill T. Degnan)",
+      "post_kind": "sublet",
+      "post_text": "My son William Degnan \"Lloyd\" is subletting his room his townhome at Usuites (University Suites) from mid-May to July with possible extension. Rent is 9…",
+      "location": "University Suites (Usuites)",
+      "price_or_budget": "$900 (incomplete, expect around this)",
+      "availability_or_move_in": "mid-May to July with possible extension",
+      "room_type": "room in townhome",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Ariel Muse",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi! My name is Ariel, and I'm looking for a summer sublease in the Raleigh/Holly Springs area, starting around the last week of May and running through the end of July! I'm starting a new job soon and am trying to find somewhere to stay since I live in Chapel Hill right now...ideally cheaper than 800, if possible, and preferably with females.",
+      "location": "Raleigh/Holly Springs area",
+      "price_or_budget": "cheaper than $800",
+      "availability_or_move_in": "Last week of May to end of July",
+      "room_type": "summer sublease",
+      "contact_info": null,
+      "date_or_time_posted": "3d ago",
+      "constraints_or_preferences": [
+        "preferably with females"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Jordan Horrall",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hi! My name is jordan, I’m 24 and work as an engineer at NCSU. I’m looking for another mid-20s female roommate who’d want to share a 2bed/2bath apartment super close to Village District/NCSU! It’s very close to Tupelo honey, for reference. The move in date will either be July 10th or July 17th. The rent is $1775 + utilities, so I’m guessing it would come out to ~$1,000 per person. I’d love to room with someone who is interested in being f…",
+      "location": "Near Village District/NCSU, Raleigh",
+      "price_or_budget": "~$1000 per person + utilities",
+      "availability_or_move_in": "July 10th or July 17th",
+      "room_type": "roommate for 2 bed / 2 bath apartment",
+      "contact_info": null,
+      "date_or_time_posted": "3d ago",
+      "constraints_or_preferences": [
+        "mid-20s female roommate"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Rachel George",
+      "post_kind": "looking_for_room",
+      "post_text": "I'm looking to move into the 3bed/3bath townhouse in 5401 North at the end of May or beginning of June, with rent at $750/month per person (utilities 65-80). I'm looking to live with folks who are respectful, community-oriented, and easy to be around. Ideally no pets and non-smoking. Lmk if you're interested or have any questions!",
+      "location": "5401 North",
+      "price_or_budget": "$750/month per person (utilities $65-80)",
+      "availability_or_move_in": "End of May or beginning of June",
+      "room_type": "3 bed / 3 bath townhouse",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [
+        "no pets",
+        "non-smoking",
+        "respectful",
+        "community-oriented",
+        "easy to be around"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Lily Bujri",
+      "post_kind": "looking_for_roommate",
+      "post_text": "I am 23 years old, currently looking for roomies in the Raleigh area! I recently moved here from Greensboro, been in Raleigh for about a year and currently live with my brother and his family. I feel as though it’s time to give them more of their space, and I also feel like it would be a good way for me to make friends in a new city. I currently work full time at the umstead hotel and spa as a bar host, and I’m also looking for other work as well if an…",
+      "location": "Raleigh area",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.7
+    },
+    {
+      "author_name": "Kevin Dai",
+      "post_kind": "offering_room",
+      "post_text": "I have a house that is located in Raleigh its 10 minutes from downtown. I have 2 rooms available. 1 with a shared bathroom the other comes with private bathroom. Current tenant is a female. Message me for me details!",
+      "location": "Raleigh, 10 minutes from downtown",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "2 rooms (one shared bathroom, one private bathroom)",
+      "contact_info": "Message me for details",
+      "date_or_time_posted": "5d ago",
+      "constraints_or_preferences": [
+        "Current tenant is female"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Sylvan Homes",
+      "post_kind": "offering_room",
+      "post_text": "Section 8 accepted, all credit welcome, low income accepted, pet friendly and all utilities are included eviction and felony-friendly homes and apartments send a direct…",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "homes and apartments",
+      "contact_info": "send a direct message",
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [
+        "Section 8 accepted",
+        "all credit welcome",
+        "low income accepted",
+        "pet friendly",
+        "eviction and felony-friendly"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "author_name": "Kira Bailey",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi !! 🤍 Looking for Two bedrooms to lease, possibly a one bedroom apartment to takeover as well for me and my 11 month old",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "Two bedrooms or one bedroom apartment",
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [
+        "for me and my 11 month old"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "author_name": "Rebecca Brauckmann",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for a roommate/sublet situation in Raleigh for July 1. Long term rental I work from home. Anyone have any leads?",
+      "location": "Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": "July 1",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Nicole Cates",
+      "post_kind": "offering_room",
+      "post_text": "ROOMMATE WANTED. Hi everyone! I have a room available August 1 in a 3 bed 2 bath house in south east Raleigh for $775 which includes everything except one third of electric bill. Current roommates are two working female professionals very easy going and clean ☺️ Completely flexible lease. Fully fenced in back yard for our two very well trained dogs. Female or non binary roommate preferred. Must be LGBTQIA friendly. Let me know if interested or DM with any questions.",
+      "location": "South east Raleigh",
+      "price_or_budget": "$775/month + one third electric bill",
+      "availability_or_move_in": "August 1",
+      "room_type": "room in 3 bed 2 bath house",
+      "contact_info": "DM for questions",
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [
+        "Female or non binary roommate preferred",
+        "Must be LGBTQIA friendly",
+        "No smoking implied by clean environment",
+        "Easy going and clean roommates",
+        "Dog friendly"
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

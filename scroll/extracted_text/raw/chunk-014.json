@@ -1,0 +1,164 @@
+{
+  "posts": [
+    {
+      "author_name": "Samantha Young",
+      "post_kind": "sublet",
+      "post_text": "Looking for someone to take over my room from May 1 – July 18 (flexible start date!) Discounted Rent: $800/month (originally $1064!) Utilities: Usually around $50/month Details: See more",
+      "location": null,
+      "price_or_budget": "$800/month plus ~$50 utilities",
+      "availability_or_move_in": "May 1 – July 18 (flexible)",
+      "room_type": "room",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Ethan Pantoja",
+      "post_kind": "sublet",
+      "post_text": "URGENT!!! Village green apartments 5/8-7/29 I'm looking for someone to sublease my room over the summer! Rent is $900/month for a 3 bed, 3 bath unit. The complex includes great amenities like a pool, 24/7 gym, basketball court, volleyball court, dog park etc. please Imk if interested",
+      "location": "Village Green apartments",
+      "price_or_budget": "$900/month",
+      "availability_or_move_in": "May 8 - July 29",
+      "room_type": "room in 3 bed, 3 bath unit",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Donna Marie",
+      "post_kind": "offering_room",
+      "post_text": "Hi All, I know it’s not Raleigh but in Wake Forest NC I have a master bedroom with a private bathroom for rent. I prefer a student. My daughter is a student at Wake Tech North campus and lives in the other bedroom. DM for information. Ready in August for rent. Thanks",
+      "location": "Wake Forest, NC",
+      "price_or_budget": null,
+      "availability_or_move_in": "Ready in August",
+      "room_type": "master bedroom with private bathroom",
+      "contact_info": "DM for information",
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "prefer student"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Shilpa Ramesh",
+      "post_kind": "looking_for_room",
+      "post_text": "My son is a student at UGA is looking for a private bedroom/bathroom preferably in an apartment complex for a summer internship in Raleigh/ Durham area. He needs the accommodation from end of May or June 1st till July 31st. Please let me know if you have anything available. Thanks!",
+      "location": "Raleigh/Durham area",
+      "price_or_budget": null,
+      "availability_or_move_in": "end of May or June 1st till July 31st",
+      "room_type": "private bedroom/bathroom",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "prefer apartment complex"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Teresa Adams",
+      "post_kind": "sublet",
+      "post_text": "Summer Sublease - 2 rooms available - Bedroom 3 - $600/mo plus 1/3 utilities, available beginning May 1st- Aug 15th. Has private sink and extra door to the bathroom - Bedroom 2 - $550/mo plus 1/3 utilties, available June 1st - Aug 15th… See more",
+      "location": null,
+      "price_or_budget": "$600/mo plus 1/3 utilities for bedroom 3; $550/mo plus 1/3 utilities for bedroom 2",
+      "availability_or_move_in": "Bedroom 3: May 1 - Aug 15; Bedroom 2: June 1 - Aug 15",
+      "room_type": "2 bedrooms",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Kyleigh Cheek",
+      "post_kind": "sublet",
+      "post_text": "Hi! I’m looking for someone to sublease my Carter Flat at the Station for the 2026/27 school year! It’s right by Carter-Finley, the Lenovo Center, and the State Fair.  $950/mo plus a one-time parking fee. I can send more pictures of my room via Messenger if needed. Female only please!",
+      "location": "Carter Flat at the Station",
+      "price_or_budget": "$950/mo plus one-time parking fee",
+      "availability_or_move_in": "2026/27 school year",
+      "room_type": null,
+      "contact_info": "Messenger for pictures",
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "female only"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Kathryn Chetwynd",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for Roommate(s) - June start (Apex/Cary/Raleigh) Hi everyone, my name is Kathryn. I am looking to either sign a 2-bedroom lease at Bell Apex (near U.S. 64) or rent a room in a townhouse or house in Apex, Cary, or Raleigh. My budget is around $900 per month after utilities. A little about me: I am in my mid-20s and work a hybrid health research 9–5. I keep a consistent schedule and usually go to bed around 10. I value a quiet home during the week, but I enjoy early eveni… See more",
+      "location": "Apex, Cary, or Raleigh",
+      "price_or_budget": "around $900/mo after utilities",
+      "availability_or_move_in": "June start",
+      "room_type": "room or sign 2-bedroom lease",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "quiet home",
+        "mid-20s female implied"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "EmmaRae Fender",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hello! I am a middle school teacher looking for a roommate in the North Raleigh or Cary area. I’m also open to parts of Durham, depending on how far they are from my school. I go to bed fairly early during the school year and I am looking for a roommate who is quiet in the evenings and/or on a similar schedule. I enjoy reading, crafting, being active, and traveling. I like to know the people I live with and I am looking for a friendly relationship with my roommate(s). My … See more",
+      "location": "North Raleigh or Cary area, open to Durham",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "quiet in evenings",
+        "similar schedule"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Adam Jackson",
+      "post_kind": "looking_for_room",
+      "post_text": "Hey everyone! 👋 My fiancé and I are starting an exciting new chapter — we’ll officially be getting married this October, and we’re looking to find our own place together! We’re currently searching for a 2-bedroom apartment or townhome for $1,800/month or less. Ideally looking for something in a safe area with reasonable commute access. See more",
+      "location": null,
+      "price_or_budget": "$1,800/month or less",
+      "availability_or_move_in": null,
+      "room_type": "2-bedroom apartment or townhome",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "safe area",
+        "reasonable commute"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Ravinder Chawla",
+      "post_kind": "offering_room",
+      "post_text": "*1 Bedroom Available – Southwest Raleigh* I have one private bedroom available in a 2BHK apartment in Southwest Raleigh. Perfect for someone who needs a temporary place for 1–5 months and share household expenses and living costs. Please DM for details or to schedule a visit.",
+      "location": "Southwest Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "1 private bedroom in 2BHK apartment",
+      "contact_info": "DM for details or visit scheduling",
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "temporary stay 1-5 months"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Morgan Cheney",
+      "post_kind": "offering_room",
+      "post_text": "Private room for rent 2505 Red Lodge Pl, Raleigh, NC 27603-6164, United States Summer Lease Takeover – University Village at 2505 🌞… See more",
+      "location": "2505 Red Lodge Pl, Raleigh, NC 27603-6164, University Village",
+      "price_or_budget": null,
+      "availability_or_move_in": "Summer Lease Takeover",
+      "room_type": "private room",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    }
+  ]
+}

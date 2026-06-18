@@ -1,0 +1,187 @@
+{
+  "posts": [
+    {
+      "author_name": "Milo Clements",
+      "post_kind": "looking_for_roommate",
+      "post_text": "ISO: Roommate for July 1 move in - $975/month room in South Durham house\nHello all!\nMy name is Milo, I am 28F and I am looking for a roommate to take over the other half of my lease beginning on July 1, 2026. I live in a beautiful 3 bedroom, 2.5 bathroom house in South Durham, between Southpoint and RTP (Exit 278).",
+      "location": "South Durham, between Southpoint and RTP (Exit 278)",
+      "price_or_budget": "$975/month",
+      "availability_or_move_in": "July 1, 2026",
+      "room_type": "room in house",
+      "contact_info": null,
+      "date_or_time_posted": "5 days ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Jonathan Clayton",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hello! My name is Jonathan Clayton, and I live in the Raleigh area but am looking for roommates or available rooms to rent in the area starting at the end of May!",
+      "location": "Raleigh area",
+      "price_or_budget": null,
+      "availability_or_move_in": "end of May",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.75
+    },
+    {
+      "author_name": "Edith Macintosh",
+      "post_kind": "offering_room",
+      "post_text": "We have 1 master bedroom for rent in a nice 4B4B house in a beautiful neighborhood in Cary. Ready to move in May 3rd. It come with private bathroom. $950 rent + utilities. The average price of the neighborhood home is over $800,000. Prime location. Close to wake med hospital, Whole Foods, Harris Teeter and Walmart. PM for detail.",
+      "location": "Cary",
+      "price_or_budget": "$950 rent + utilities",
+      "availability_or_move_in": "May 3rd",
+      "room_type": "master bedroom with private bathroom",
+      "contact_info": "PM for detail",
+      "date_or_time_posted": "1 day ago",
+      "constraints_or_preferences": [
+        "Female roommate only as existing tenants are all female",
+        "No pet"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "author_name": "Maxence de Boisset",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi everyone, My name is Maxence, I’m 18 and I’m French. I’m coming to Raleigh this Fall 2026 to study at SKEMA Business School (NC State campus). I’m currently looking for a room or a sublease near campus (Hillsborough Street or close to NC State would be ideal).",
+      "location": "Hillsborough Street or close to NC State",
+      "price_or_budget": null,
+      "availability_or_move_in": "Fall 2026",
+      "room_type": "room or sublease",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Hernan Salazar",
+      "post_kind": "offering_room",
+      "post_text": "Hey bro, I'm looking for a roomie too. I have a furnished room available in North hills, 13min away from campus. Hit me up if interested",
+      "location": "North Hills, 13 min away from campus (NC State)",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "furnished room",
+      "contact_info": "Hit me up if interested",
+      "date_or_time_posted": "1 day ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Ketan Patel",
+      "post_kind": "offering_room",
+      "post_text": "Hi I have fully furnished room available near Skema campus from Aug 2026 with others are Skema students and local students.",
+      "location": "Near Skema campus",
+      "price_or_budget": null,
+      "availability_or_move_in": "August 2026",
+      "room_type": "fully furnished room",
+      "contact_info": null,
+      "date_or_time_posted": "2 days ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Sebastian Echeverry",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hey I’m Sebastian, I’m 23 and graduating from NCSU in May and working as an engineer in North Raleigh. I’m looking for another recent grad who’d want to share a 2 bed/2 bath. My budget is between $900-1200. I prefer to keep the living area clean. Aiming to live in North Hills/Village District/Iron Works area.",
+      "location": "North Raleigh, preferably North Hills/Village District/Iron Works area",
+      "price_or_budget": "$900-1200",
+      "availability_or_move_in": "after May graduation",
+      "room_type": "roommate for 2 bed/2 bath",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [
+        "Prefers clean living area",
+        "Recent graduate",
+        "No pets mentioned"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "GiftedLobster1242",
+      "post_kind": "sublet",
+      "post_text": "I have a 3 bedroom I’m looking to sublet the main bedroom or both bedrooms",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "main bedroom or both bedrooms in 3 bedroom",
+      "contact_info": null,
+      "date_or_time_posted": "3 days ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.8
+    },
+    {
+      "author_name": "Jane Ohia",
+      "post_kind": "looking_for_room",
+      "post_text": "Summer lease around RTP, Miami Boulevard, Dupree Street etc. Hi everyone! My name is Jane. I’m looking for housing from May 10 – August 10. I’m looking for: A summer lease/sublease or a room in an apartment A studio, 1-bedroom, or 2-bedroom arrangement to share with someone.",
+      "location": "Around RTP, Miami Boulevard, Dupree Street",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 10 - August 10",
+      "room_type": "studio, 1-bedroom or 2-bedroom to share",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Darshil Shah",
+      "post_kind": "offering_room",
+      "post_text": "Room for rent :$700 /per month starting (Mid May to June 1) . ALL four rooms will be available from June 1st if you want to bring your friends and share the entire apartment with them only. Private bedroom with attached (en suite) UPGRADED bathroom. Prime Raleigh Location (27606): #ncsu. Max occupancy per room is one. Minutes to NC State University. Easy access to Research Triangle Park (RTP). Close to shopping, restaurants, coffee shops, and public transit. Quiet, friendly neighborhood.",
+      "location": "Raleigh, NC 27606",
+      "price_or_budget": "$700/month",
+      "availability_or_move_in": "Mid May to June 1",
+      "room_type": "private bedroom with en suite bathroom",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "Max one occupant per room"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Alisha Guthrie",
+      "post_kind": "offering_room",
+      "post_text": "Private Room + Bathroom Near Downtown Raleigh – Utilities Included – $1,000. Located 8 minutes from Downtown Raleigh. Looking for a clean, responsible roommate to share a peaceful, well-kept home in Southeast Raleigh. Flexible move-in.",
+      "location": "Near Downtown Raleigh (Southeast Raleigh)",
+      "price_or_budget": "$1,000 (utilities included)",
+      "availability_or_move_in": "Flexible",
+      "room_type": "private room with bathroom",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "Clean, responsible roommate"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Cortney Blake",
+      "post_kind": "sublet",
+      "post_text": "1bed 1bath lease takeover in northwest Raleigh. Hi everyone, I’m looking for someone to either take over my lease (or sublet) by mid to end of May! It is a one bedroom, one bathroom unit about 800 sq feet with pictures attached below. I am within walking distance to Lake Lynn where it’s a beautiful walking trail around the lake! My lease ends July 31st, 2026 but you can extend the lease if you move in before June 1st! I have posted the breakdown below but please message me for details.",
+      "location": "Northwest Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": "mid to end of May",
+      "room_type": "1 bedroom, 1 bathroom unit",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Shecaniah Quinerly",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi everyone, I’m looking for an apartment for me and my boyfriend around 600 to 1000 in Raleigh we are very chill people we don’t bother nobody we don’t have any pets",
+      "location": "Raleigh",
+      "price_or_budget": "$600 to $1000",
+      "availability_or_move_in": null,
+      "room_type": "apartment for two",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "No pets",
+        "Very chill people"
+      ],
+      "confidence": 0.85
+    }
+  ]
+}

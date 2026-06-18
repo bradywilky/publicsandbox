@@ -1,0 +1,187 @@
+{
+  "posts": [
+    {
+      "author_name": "Claire Brent",
+      "post_kind": "sublet",
+      "post_text": "Hi, I'm looking for someone to sublease my place over the summer! It would be from May 7th to July 21st. It is located on Crab Orchard Dr and is right next to Lake Johnson and is close to NC State. The rent is $600/month plus utilities, with the utilities being at most $20. You would have your own private bedroom and bathroom, and a washer and dryer are included. Please reach out if you have any questions!",
+      "location": "Crab Orchard Dr, near Lake Johnson, close to NC State",
+      "price_or_budget": "$600/month plus utilities (up to $20)",
+      "availability_or_move_in": "May 7th to July 21st",
+      "room_type": "private bedroom and bathroom",
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Rajshree Rampersaud",
+      "post_kind": "offering_room",
+      "post_text": "🏡 Flexible Furnished Townhome for Rent — Raleigh 27604 🏡 Pet Friendly • Private Fenced Yard • Move-In Ready Looking for a comfortable, move-in ready home in Raleigh? This beautifully furnished 2 bedroom, 2.5 bathroom townhome offers the perfect blend of convenience, privacy, and unique features.",
+      "location": "Raleigh 27604",
+      "price_or_budget": null,
+      "availability_or_move_in": "Move-In Ready",
+      "room_type": "2 bedroom, 2.5 bathroom townhome",
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [
+        "Pet Friendly"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Sarah Garcia",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi to all! My 3 (ESA) cats and I are looking to move out of our apartment and hoping to find a 1bd 1ba home to rent with a budget of $1700/month. Current lease ends in June, so would love to find a place that’s available anytime mid June-July 1st.",
+      "location": null,
+      "price_or_budget": "$1700/month",
+      "availability_or_move_in": "mid June to July 1st",
+      "room_type": "1 bedroom, 1 bathroom home",
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [
+        "ESA cats"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Danielle Davis",
+      "post_kind": "looking_for_room",
+      "post_text": "Hey! I'm looking to take over someone’s lease on a one bedroom apartment immediately for my daughter and I.",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": "immediately",
+      "room_type": "1 bedroom apartment",
+      "contact_info": null,
+      "date_or_time_posted": "5d ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Bailey Olmschenk",
+      "post_kind": "offering_room",
+      "post_text": "Price: $1900/month I’m offering my beautiful 3 bed / 3 bath townhome for rent in Northeast Raleigh, ideally located just 10 minutes from both Downtown and North Hills. I’ve loved living here for the past two years with roommates, but after recently getting married, we’re moving, which means this well-cared-for home is now available.",
+      "location": "Northeast Raleigh",
+      "price_or_budget": "$1900/month",
+      "availability_or_move_in": null,
+      "room_type": "3 bed / 3 bath townhome",
+      "contact_info": null,
+      "date_or_time_posted": "1w ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Ashleigh Lynn",
+      "post_kind": "offering_room",
+      "post_text": "Room for rent – available after May 15 (NE Raleigh, Valley Stream neighborhood) Looking for a girl in her 20s to take over a bedroom in our house! Rent is $580 + utilities, deposit is $570. If you move in before June, May rent would just be prorated for the days you’re there.",
+      "location": "NE Raleigh, Valley Stream neighborhood",
+      "price_or_budget": "$580 + utilities, $570 deposit",
+      "availability_or_move_in": "after May 15",
+      "room_type": "bedroom in house",
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [
+        "girl in her 20s"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Kylie Quinn",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for someone to split a 2b/2b garden style first floor apartment starting in July at the Marlowe Lake Boone. Close to Rex hospital, Meredith, State and located on the greenway. I’ve been living here for a year with my roommate but he is leaving for the AF. You would get the master bed and bath circled in red. I have all the housewares and the living room is furnished. Only catch is that I have 2 bunnies that occupy where a dining table would be. They are litter trained.",
+      "location": "Marlowe Lake Boone area",
+      "price_or_budget": null,
+      "availability_or_move_in": "starting in July",
+      "room_type": "2b/2b garden style first floor apartment; master bedroom and bath available",
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [
+        "female roommate preferred (implied by bunnies presence)"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Gata Coulibaly",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi everyone, I will be starting classes next month at Durham Community College and I am currently looking for a place to stay in Durham.",
+      "location": "Durham",
+      "price_or_budget": null,
+      "availability_or_move_in": "next month",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Keya Mehta",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi everyone!! I’m looking to sublease a place near downtown Raleigh this summer from June 21st to August 21st. I’m open to either a single place or sharing with roommates however, I’m a college student so I would prefer to live with female roommates around my age. If you have a place available or know of anything, please message me. Thanks so much! 💛",
+      "location": "near downtown Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": "June 21st to August 21st",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [
+        "female roommates",
+        "college student",
+        "around my age"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Maithili Pramod",
+      "post_kind": "sublet",
+      "post_text": "🏡 Summer Sublease Available | Private Room, Private Bath 🛏️ 4 Bed | 4 Bath (Biggest Room of the apartment - Room large enough for 2 people!) 📣 Looking for a male/female tenant (No preferences)!",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": "summer",
+      "room_type": "private room with private bath in 4 bed/4 bath apartment",
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [
+        "no gender preference"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Charles-Marie Tillard",
+      "post_kind": "sublet",
+      "post_text": "🏠 SUMMER SUBLEASE – Live On Hillsborough 🏠 Looking for someone to take over my spot this summer! 📍 104 Ashe ave,Raleigh (right by NC State) 📅 May 1– July 29",
+      "location": "104 Ashe Ave, Raleigh (right by NC State)",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 1 to July 29",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "4d ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Fahim Foraejee",
+      "post_kind": "sublet",
+      "post_text": "Summer Sublease Gorman Street at Lexington Drive posting for Subleasing - May 25 to Aug 14 (dates are flexible) Private Room with private bathroom available starting from 25th May 2026 to August 14th 2026. Apartment - 4 Bed 4 Bath (with Kitchen and common space), Good Private room, with window, private bathroom, Washer/dryer in unit and Parking",
+      "location": "Gorman Street at Lexington Drive",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 25 to August 14 (flexible)",
+      "room_type": "private room with private bathroom in 4 bed 4 bath apartment",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Lara Ribeiro",
+      "post_kind": "sublet",
+      "post_text": "🌞 Summer Sublease – Private Bedroom at Signature 1505, Raleigh! 📍 1505 Hillsborough St, Bldg. 1505, 3rd Floor, Raleigh, NC 27605 📅 Available: May 1 – July 23",
+      "location": "1505 Hillsborough St, Raleigh, NC 27605",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 1 to July 23",
+      "room_type": "private bedroom",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    }
+  ]
+}
