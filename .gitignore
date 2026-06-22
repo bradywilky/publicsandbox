@@ -1,5 +1,17 @@
-home_dashboard/venv
-home_dashboard/home_dashboard_venv
-home_dashboard/datacache
+# Python virtual environments
+venv/
+.venv/
+env/
 
-watertemp_timeseries/timeseries_venv
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Optional: VS Code
+.vscode/
+
+# Optional: environment variables
+.env
