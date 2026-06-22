@@ -47,4 +47,12 @@ Create a virtual environment
 4. run this in browser
 `http://localhost:8000/restaurants/open?datetime_string={DATETIME_STRING_HERE}`
 ex:
-`http://localhost:8000/restaurants/open?datetime_string={2026-06-22T13:30:00}`
+`http://localhost:8000/restaurants/open?datetime_string=2026-06-22T13:30:00`
+
+
+### Running via Dockerfile
+```
+docker build -t restaurant-api .
+docker run -p 8000:8000 restaurant-api
+```
+`-p <host_port>:<container_port>`
