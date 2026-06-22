@@ -11,7 +11,7 @@ def get_next_day(day):
     return next_day
 
 def get_days_open_list_from_raw_day_string(days):
-    days = days.strip()
+    days = days.strip().lower()
     
     days_list = []
     
