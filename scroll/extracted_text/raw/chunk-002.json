@@ -1,0 +1,241 @@
+{
+  "posts": [
+    {
+      "author_name": "Charlie Armstrong",
+      "post_kind": "looking_for_room",
+      "post_text": "Hello! My name is Charlie Armstrong, and I’m currently a law student at Carolina looking for an apartment to sublease from May 15th to the beginning of August in the Raleigh area for an internship with the N.C. Department of Justice. I’m not looking to spend more than about $800 a month for rent and utilities, but am willing to go a little over if it’s close. If you have a room you’re looking to sublease for this summer, please reach out!!!",
+      "location": "Raleigh area, NC",
+      "price_or_budget": "$800/month max for rent and utilities",
+      "availability_or_move_in": "May 15th to beginning of August 2026",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "~77 minutes ago",
+      "constraints_or_preferences": [
+        "sublease",
+        "law student",
+        "summer 2026"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Hannah Parker",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hi everyone! I'm Hannah and I'm 26 and looking for a room in a shared apartment ASAP (April Move-In)! I've been in Madrid for two years and am looking to move to the Raleigh area very soon for work. I like to keep a clean space, love meeting new people and enjoy watching sports and music. Please let me know if you're looking for a roommate I'd love to get in touch. Thanks in advance!",
+      "location": "Raleigh area, NC",
+      "price_or_budget": "below $1100/month",
+      "availability_or_move_in": "ASAP (April Move-In)",
+      "room_type": "private room in shared apartment",
+      "contact_info": null,
+      "date_or_time_posted": "~77 minutes ago",
+      "constraints_or_preferences": [
+        "working professional",
+        "clean",
+        "enjoys sports and music"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Gata Coulibaly",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi, I’m a new student at Durham Technical Community College. I’m a disciplined and respectful person, and I’m currently looking for either an apartment or a room with a private bathroom. I value cleanliness, quiet, and a peaceful living environment. Please feel free to contact me if you have something available.",
+      "location": "Durham area, NC",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "room with private bathroom or apartment",
+      "contact_info": null,
+      "date_or_time_posted": "~77 minutes ago",
+      "constraints_or_preferences": [
+        "student",
+        "disciplined",
+        "respectful",
+        "cleanliness",
+        "quiet living environment"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "DaijaVu GlamourHouse",
+      "post_kind": "offering_room",
+      "post_text": "Have a private Room / Bath.. $999 Raleigh",
+      "location": "Raleigh, NC",
+      "price_or_budget": "$999/month",
+      "availability_or_move_in": null,
+      "room_type": "private room with private bathroom",
+      "contact_info": null,
+      "date_or_time_posted": "~1 week ago",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Lee Young",
+      "post_kind": "sublet",
+      "post_text": "Female Sublet May 2026-July 2027 $565/month utilities included 10 minutes off campus",
+      "location": null,
+      "price_or_budget": "$565/month utilities included",
+      "availability_or_move_in": "May 2026-July 2027",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "female",
+        "sublet"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Claire Walthall",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi! Currently ISO an apartment or house for rent near downtown. Would love for it to be in the Oakwood area or a similar neighborhood! Budget is around $1200 or below and looking to move mid May. Thanks in advance!!",
+      "location": "near downtown Raleigh, Oakwood area or similar",
+      "price_or_budget": "$1200 or below",
+      "availability_or_move_in": "mid May",
+      "room_type": "apartment or house",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Flacco Woods",
+      "post_kind": "looking_for_room",
+      "post_text": "Looking to rent an apartment or room asap I work off Louisburg rd , ideally would like to remain in Raleigh",
+      "location": "Raleigh area near Louisburg Rd",
+      "price_or_budget": null,
+      "availability_or_move_in": "ASAP",
+      "room_type": "apartment or room",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.8
+    },
+    {
+      "author_name": "Susanna Lohmar",
+      "post_kind": "offering_room",
+      "post_text": "Looking for a female roommate to sublet a fully furnished private bedroom with its own private bathroom in a clean, quiet shared home from May 9 – August 14. 123 Maywood Ave, Raleigh, NC 27603-2437, United States",
+      "location": "123 Maywood Ave, Raleigh, NC 27603",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 9 – August 14",
+      "room_type": "private bedroom with private bathroom",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "female roommate",
+        "fully furnished",
+        "clean",
+        "quiet",
+        "sublet"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Maile McNaughton",
+      "post_kind": "offering_room",
+      "post_text": "Moved out of my super cute 2bed 1 bath house near downtown Raleigh because I’m leaving the area and now I need to get the lease filled. 2bed 1 bath, HUGE fenced in backyard and pets are allowed. It would start over with a 12 month lease. Rent is $1595 +utilities, but the landlord takes care of the lawn care.",
+      "location": "near downtown Raleigh",
+      "price_or_budget": "$1595 + utilities",
+      "availability_or_move_in": null,
+      "room_type": "2 bed 1 bath house",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "pets allowed",
+        "huge fenced backyard",
+        "12 month lease"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Smruti Chourasia",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hi, my roommate and I are looking for a third roommate to move into a 3 bed apartment with us in Morrisville area in *May* 2026. About us: We both work in tech - been in the area for about 3 years. Calm and chill vibes at home. Apartment (likely): Ashby Twin lakes, Morrisville. Expected Rent: around ~800$",
+      "location": "Morrisville area",
+      "price_or_budget": "~$800",
+      "availability_or_move_in": "May 2026",
+      "room_type": "room in 3 bed apartment",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "tech workers",
+        "calm and chill vibes"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Jennifer Stallings",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hi everyone! I’m looking for a roommate to share my furnished home in NE Raleigh, conveniently located near Knightdale and Wake Forest. About the home: Fully furnished common areas, clean, comfortable, and peaceful space.",
+      "location": "NE Raleigh near Knightdale and Wake Forest",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "roommate for furnished home",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "furnished common areas",
+        "clean",
+        "peaceful"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Jasmin Loraine Benas",
+      "post_kind": "offering_room",
+      "post_text": "$700 room off Avent Ferry/Gorman. I’m helping my roommate find someone to take over my spot (I’m sad to be leaving). Ideally looking for a girl in her early/mid 20s! It’s a 3 bed / 2 bath house near Gorman & Avent Ferry. All common areas are furnished, and there’s a really nice screened-in porch. The available room easily fits a queen bed, desk, arm chair.",
+      "location": "Near Avent Ferry & Gorman, Raleigh",
+      "price_or_budget": "$700/month",
+      "availability_or_move_in": null,
+      "room_type": "room in 3 bed, 2 bath house",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "female only",
+        "early/mid 20s preferred",
+        "furnished common areas"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Sienna Funderburg",
+      "post_kind": "looking_for_roommate",
+      "post_text": "My partner and I are looking for two roommates to fill the second floor bedrooms in our 3BR townhome just outside of Raleigh (right off 401, behind Cookout/Taco Bell). We are into building Legos, going out and about, house plants, video games, cooking. My partner works in crawl space encapsulation/waterproofing and I bartend downtown.",
+      "location": "Just outside Raleigh, off 401",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "two rooms in 3BR townhome",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Bryn Haden",
+      "post_kind": "looking_for_roommate",
+      "post_text": "My current lease ends at the end of June and I’m looking for a new place with a 12 month lease open for move in anytime in June! I have a whole apartment’s worth of stuff so I’m looking for a roommate or open to moving in with others and putting most in storage. I have a cat named June and work full-time. I love working out and am training for a triathlon and marathon.",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": "June",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "cat owner",
+        "looking for roommate",
+        "12 month lease"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Abby Hutchinson",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hey! My name is Abby and I’ll be moving in to Raleigh in July. I’m narrowing down my apartment, but would love to get connected to new friends! I love thrifting, hiking, dance floors at local bars, dip/game nights, trying new workout classes (especially cycling), being outside and hanging out. My Instagram is abbyxhutchinson.",
+      "location": "Raleigh, NC",
+      "price_or_budget": null,
+      "availability_or_move_in": "July",
+      "room_type": null,
+      "contact_info": "Instagram: abbyxhutchinson",
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.8
+    }
+  ]
+}

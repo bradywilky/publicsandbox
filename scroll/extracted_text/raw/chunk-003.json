@@ -1,0 +1,128 @@
+{
+  "posts": [
+    {
+      "author_name": "Sienna Funderburg",
+      "post_kind": "looking_for_roommate",
+      "post_text": "ISO 2 Roommates! Hey y’all! My partner and I are looking for two roommates to fill the second floor bedrooms in our 3BR townhome just outside of Raleigh (right off 401, behind Cookout/Taco Bell). [About Us (short version 🤣) We are into building Lego’s, going out and about, I have house plants that I love 🪴, and he is into video games and cooking! My partner works in crawl space encapsulation/waterproofing, and I bartend downtown cur…",
+      "location": "just outside of Raleigh, right off 401, behind Cookout/Taco Bell",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "second floor bedrooms in 3BR townhome",
+      "contact_info": null,
+      "date_or_time_posted": "14h",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Bryn Haden",
+      "post_kind": "looking_for_roommate",
+      "post_text": "hi! my current lease ends at the end of june and i’m looking for a new place to live that has a 12 month lease open for move in anytime in june! i have a whole apartment’s worth of stuff so im looking for a roommate to move into a place with OR i am open to either moving in with others and putting most in a storage unit. a little bit about me: i have a cat named june , i currently work full-time, i LOVE working out and am currently training for a triathlon and a marathon , …",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": "move in anytime in June",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "13h",
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Abby Hutchinson",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hey! My name is Abby and I’ll be moving in to Raleigh in July. I’m currently narrowing down my apartment, but would love to get connected to new friends! I love thrifting, hiking, dance floors at the local bars, dip/game nights, trying new workout classes (especially cycling), being outside and hanging out of all sorts. If you want to connect or have recommendations for things to check out in Raleigh, my Instagram is abbyxhutchinson. ☺️",
+      "location": "Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": "July",
+      "room_type": null,
+      "contact_info": "Instagram: abbyxhutchinson",
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Nash Rice",
+      "post_kind": "looking_for_room",
+      "post_text": "Hello guys! My name is Nash. I am ISO a room to rent asap. My budget is 600-900 per month. I’d like to just stay through the summer. If anyone has anything available or is interested in talking about moving in together message me!",
+      "location": null,
+      "price_or_budget": "$600-900/month",
+      "availability_or_move_in": "ASAP, just through the summer",
+      "room_type": "room",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Alayna Moose",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for a 2 female roommates in a 4 bed, 3.5 bath house in Northwest Raleigh! Hi everyone! I am looking for two roommates to live with in a townhouse. Everyone would have their own bedroom and bathroom and the community has amenities (pool and gym). The townhome is 8 minutes from Crabtree, 12 minutes from the airport and North Hills, and about 20 minutes to Downtown Raleigh so it's a great location! I am looking for roommates who love Jesus and value their faith!",
+      "location": "Northwest Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "bedrooms with own bathroom in 4 bed, 3.5 bath townhouse",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [
+        "female roommates",
+        "love Jesus and value faith"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Lee Young",
+      "post_kind": "sublet",
+      "post_text": "Female Sublet May2026-July2027 $565/month utilities included 10 minutes off campus private bathroom 3 other roommates",
+      "location": "10 minutes off campus",
+      "price_or_budget": "$565/month utilities included",
+      "availability_or_move_in": "May 2026 to July 2027",
+      "room_type": "private bathroom",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [
+        "female sublet"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Maximilien Vitale",
+      "post_kind": "sublet",
+      "post_text": "Signature 1505 Summer Lease Takeover – May 2026 TO JULY 2026 Prime location – Across from NC State Campus (Hillsborough Street)",
+      "location": "Across from NC State Campus (Hillsborough Street)",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 2026 to July 2026",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Santosh Sirikonda",
+      "post_kind": "offering_room",
+      "post_text": "Private rooms available for male or female tenants in a spacious single-family home. Conveniently located near highways, RTP, Cary, Morrisville, NC State University, RDU Airport, Walmart, Crabtree Mall, and shopping centers. Community amenities include a gym, swimming pool, tennis court, and pickleball court.",
+      "location": "Near highways, RTP, Cary, Morrisville, NC State University, RDU Airport, Walmart, Crabtree Mall",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "private rooms",
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [
+        "male or female tenants"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Matthew Moreira",
+      "post_kind": "sublet",
+      "post_text": "🏠 Summer Sublease Available– The Wilde Raleigh Hey everyone, I’m looking for someone to take over my lease at The Wilde for the summer which ends July 31. I know this is a little later than most people start looking, so I wanted to put it out there in case anyone still needs a place for summer classes, an internship, or just somewhere to stay in Raleigh. I am willing to pay half of your first rent to make this a better deal considering it is a late post. It’s $845/month and th…",
+      "location": "The Wilde, Raleigh",
+      "price_or_budget": "$845/month",
+      "availability_or_move_in": "summer ending July 31",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "recent",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "author_name": "Sreenidhi Prakki",
+      "post_kind": "looking_for_roommate",
+      "post_text": "hey!! i’m currently a student at UNC and will be working in raleigh this summer, so i’m looking for a sublease or female roommate from june 1st through august 21st! i’m hoping to stay within ~1–1.5 miles of downtown raleigh and keep rent under $1000/month. i’m open to joining an existing lease or finding a place with someone!",
+      "location": "Raleigh",
+      "price_or_budget": "under $1000/month",
+      "availability_or_move_in": "June 1st through August 21st",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "female roommate"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Rebecca Patterson",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for a place/roommate September/early October of 2026. I am about to graduate from chiropractor school and start a new job in Cary NC. My budget is $750-$900. I can live anywhere from Raleigh, Cary or Apex. I am a Christian who loves to go outdoors and hike. I am pretty clean and a chill roommate. I am a grandma at heart and like to go to bed early and wake up early to workout and great ready for my day. I love to read, watch movies together or just chat about day",
+      "location": "Raleigh, Cary or Apex, NC",
+      "price_or_budget": "$750-$900",
+      "availability_or_move_in": "September/early October of 2026",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "Christian",
+        "prefer clean and chill roommate",
+        "ready for early routine"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Claire Mathieu",
+      "post_kind": "sublet",
+      "post_text": "Summer sublease Available – Cozy Room in Great Location! Hi everyone! I’m subleasing my room in a beautiful, fully furnished apartment and looking for someone to take over from May to August! About the Apartment: Fully furnished and pet friendly – move in stress-free! Modern, spacious layout with lots of natural light Fully equipped kitchen (everything you need: appliances, cookware, etc.) Amenities: Air conditioning Parking space Swimming pool and grills",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": "May to August",
+      "room_type": "Cozy Room",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "pet friendly"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Romain Huleu Féron",
+      "post_kind": "sublet",
+      "post_text": "✨ Sublease available at Valentine Commons - Raleigh ✨ I’m leaving Raleigh and I’m looking to sublease my room from May 3rd to July 31st, 2026 in Valentine Commons, located at 3009 Me Valentine Dr. The room is in a Michelle Platinum apartment on the 5th floor, with a 4 bed / 4 bath layout and 1,098 sq ft. Even though it is a 4-person apartment, there are currently only 2 people living there including me, so the apartment feels quieter and more spacious. The room is furnished",
+      "location": "Valentine Commons, 3009 Me Valentine Dr, Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 3rd to July 31st, 2026",
+      "room_type": "room in 4 bed / 4 bath furnished apartment",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Chir Ring",
+      "post_kind": "looking_for_room",
+      "post_text": "Looking for a Room to Rent – Raleigh, North Carolina (Near Crabtree Area) Hi everyone! I’m moving to Raleigh for work and currently looking for a room to rent near the Crabtree Valley Mall area (or within about a 10-minute drive). A little about what I’m looking for: Budget: up to $900/month (utilities inc.) Prefer living with women",
+      "location": "Near Crabtree Valley Mall, Raleigh",
+      "price_or_budget": "up to $900/month (utilities included)",
+      "availability_or_move_in": null,
+      "room_type": "room",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "prefer living with women"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Ariana Harren",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hi, I’m moving to the Cary/Raleigh area from Carrboro in late July 2026 and I’m looking for a roommate! I’m relocating for better job opportunities in the marketing fie…",
+      "location": "Cary/Raleigh area",
+      "price_or_budget": null,
+      "availability_or_move_in": "late July 2026",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Bill T. Degnan",
+      "post_kind": "sublet",
+      "post_text": "Hello everyone, my son William Degnan \"Lloyd\" is subletting his room his townhome at Usuites (University Suites) from mid-May to July with possible extension. Rent is 9…",
+      "location": "Usuites (University Suites), Raleigh",
+      "price_or_budget": "$900+",
+      "availability_or_move_in": "mid-May to July with possible extension",
+      "room_type": "room in townhome",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    }
+  ]
+}

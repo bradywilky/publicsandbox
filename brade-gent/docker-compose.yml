@@ -1,0 +1,29 @@
+services:
+  bot:
+    build: .
+    command: python -m src.discord_bot
+    env_file:
+      - .env
+    restart: always
+    volumes:
+      - ./data:/app/data
+
+  web:
+    build: .
+    command: uvicorn src.web:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    restart: always
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8000:8000"
+
+  worker:
+    build: .
+    command: python -m src.reminder_worker
+    env_file:
+      - .env
+    restart: always
+    volumes:
+      - ./data:/app/data

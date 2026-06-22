@@ -1,0 +1,137 @@
+{
+  "posts": [
+    {
+      "author_name": "Ellie Peichel",
+      "post_kind": "offering_room",
+      "post_text": "Room in a LOVELY 3-bedroom house in Old North Durham $910 (Early May move in) **Also down to talk about a summer sublet. A sweet, three-bedroom LGBTQIA+ friendly home in Old North Durham (1665 sqft). One-year lease with security deposit and first month's rent. W/D included. Utilities not included and are around $100 per month. On-street parking and a driveway!",
+      "location": "Old North Durham",
+      "price_or_budget": "$910",
+      "availability_or_move_in": "Early May move in",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "LGBTQIA+ friendly"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Jennifer Hooks Andrews",
+      "post_kind": "offering_room",
+      "post_text": "We have a house/room rental for summer. If you working in or near raleigh, this is the perfect setup. (20min from raleigh towards garner) very flexible on dates. Pm for details",
+      "location": "Near Raleigh towards Garner",
+      "price_or_budget": null,
+      "availability_or_move_in": "Summer",
+      "room_type": "house/room rental",
+      "contact_info": "Pm for details",
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Lee Young",
+      "post_kind": "sublet",
+      "post_text": "Female Sublet May2026-July2027 $565/month utilities included 10 minutes off campus",
+      "location": null,
+      "price_or_budget": "$565/month",
+      "availability_or_move_in": "May 2026",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "female",
+        "utilities included"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Maxence Chrupek",
+      "post_kind": "sublet",
+      "post_text": "SUBLEASE Available – $899/month instead of $1225 at The Station, Renewable (Raleigh) Looking for someone to take over my lease for Bedroom D in a Finley floorplan at The Station at Raleigh from April 26th through July 19st.",
+      "location": "The Station, Raleigh",
+      "price_or_budget": "$899/month",
+      "availability_or_move_in": "April 26th",
+      "room_type": "Bedroom D in Finley floorplan",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Sean Ogechukwu",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hi! I’m looking for a roommate (in their 20s, any gender, I’m 23) to share a 2 bed/2 bath at Republic Flats in Morrisville (really close to I-40 ramp). I’m working in Raleigh as a medical assistant while I apply to medical school. Rent would be about $900 each after utilities, and I’m aiming to move in late May/early June. I love this specific apartment since they have full kitchen islands (with no sink in the middle of them so just full usable space).",
+      "location": "Republic Flats, Morrisville",
+      "price_or_budget": "about $900 each after utilities",
+      "availability_or_move_in": "late May/early June",
+      "room_type": "2 bed/2 bath",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "no pets",
+        "in their 20s",
+        "any gender"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Kevin Garcia",
+      "post_kind": "sublet",
+      "post_text": "Summer Sublease available - The Wilde Raleigh Hey everyone, I’m looking for someone to take over my lease at The Wilde for the summer which ends July 31. I know this is a little later than most people start looking, so I wanted to put it out there in case anyone still needs a place for summer classes, an internship, or just somewhere to stay in Raleigh. I am willing to pay half of your first rent to make this a better deal considering it is a late post. It’s $845/month and the …",
+      "location": "The Wilde, Raleigh",
+      "price_or_budget": "$845/month",
+      "availability_or_move_in": "summer until July 31",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Reily Johnson",
+      "post_kind": "sublet",
+      "post_text": "Sublet for private bedroom and private apartment SUBLET AVAILABLE – AUGUST 1st Hi!! My name is Reily and i’m looking for someone to take over my lease at The Wilde Apartment Complex starting August 1st.",
+      "location": "The Wilde Apartment Complex",
+      "price_or_budget": null,
+      "availability_or_move_in": "August 1st",
+      "room_type": "private bedroom and private apartment",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Michelle Saldanha",
+      "post_kind": "offering_room",
+      "post_text": "Private room with shared bathroom available immediately for 1 male in clean and quiet home. Bathroom shared with 1 male. Utilities included. Parking available. Located in a safe and family-oriented neighborhood. Suitable for working professional or mature student. Looking for a long-term roommate. Rent: $750/ month",
+      "location": null,
+      "price_or_budget": "$750/month",
+      "availability_or_move_in": "immediately",
+      "room_type": "private room with shared bathroom",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "1 male",
+        "utilities included",
+        "long-term roommate",
+        "working professional or mature student"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Mckaila Marie McMillan",
+      "post_kind": "sublet",
+      "post_text": "Please take this apartment off my hands I am a full time 911 operator who is being relocated to a different county comes with great roommates one month paid and I can leave extra furniture lease starting in July. URGENT SUBLEASE KOVE IN DATE WHENEVER YOU NEED!",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": "lease starting in July, move in whenever you need",
+      "room_type": "apartment",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "great roommates"
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

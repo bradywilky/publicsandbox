@@ -1,0 +1,234 @@
+{
+  "posts": [
+    {
+      "author_name": "Kira Bailey",
+      "post_kind": "looking_for_room",
+      "post_text": "Hi !! 🤍 Looking for Two bedrooms to lease , possibly a one bedroom apartment to takeover as well for me and my 11 month old",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "two bedroom or one bedroom apartment",
+      "contact_info": null,
+      "date_or_time_posted": "4d",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Rebecca Brauckmann",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for a roomate/ sublet situation in Raleigh for July 1 . Long term rental I work from home. Anyone have any leads?",
+      "location": "Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": "July 1",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "3d",
+      "constraints_or_preferences": [
+        "long term rental",
+        "work from home"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Nicole Cates",
+      "post_kind": "offering_room",
+      "post_text": "ROOMMATE WANTED. Hi everyone! I have a room available August 1 in a 3 bed 2 bath house in south east Raleigh for $775 which includes everything except one third of electric bill. Current roommates are two working female professionals very easy going and clean ☺️ Completely flexible lease. Fully fenced in back yard for our two very well trained dogs. Female or non binary roommate preferred. Must be LGBTQIA friendly. Let me know if interested or DM with any questions.",
+      "location": "south east Raleigh",
+      "price_or_budget": "$775",
+      "availability_or_move_in": "August 1",
+      "room_type": "room in 3 bed 2 bath house",
+      "contact_info": "DM with any questions",
+      "date_or_time_posted": "3d",
+      "constraints_or_preferences": [
+        "female or non binary preferred",
+        "LGBTQIA friendly"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "author_name": "Rajshree Rampersaud",
+      "post_kind": "offering_room",
+      "post_text": "🏡 Flexible Furnished Townhome for Rent — Raleigh 27604 🏡 Pet Friendly • Private Fenced Yard • Move-In Ready Looking for a comfortable, move-in ready home in Raleigh? This beautifully furnished 2 bedroom, 2.5 bathroom townhome offers the perfect blend of convenience, privacy, and unique features.",
+      "location": "Raleigh 27604",
+      "price_or_budget": null,
+      "availability_or_move_in": "move-in ready",
+      "room_type": "furnished 2 bedroom, 2.5 bathroom townhome",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "pet friendly",
+        "private fenced yard"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "Jewel Tyler",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Hi everyone, Me, my husband, and our (female) friend Jordan are looking for another girl roommate for a year lease that’ll begin mid to late July!! Jordan and I are students at NC State so we want to live close to campus, but affordability is the #1 factor in our housing decision. So while we are looking for a rental home first and foremost, we are open to living in a townhome, too. As a roommate, the goal is to have your rent be no ...",
+      "location": "near NC State campus",
+      "price_or_budget": "affordability is #1 factor",
+      "availability_or_move_in": "mid to late July",
+      "room_type": "rental home or townhome",
+      "contact_info": null,
+      "date_or_time_posted": "4d",
+      "constraints_or_preferences": [
+        "female roommate"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Savanna Miles",
+      "post_kind": "looking_for_room",
+      "post_text": "Me and one other girl are looking for a 2 bedroom place starting in june if anyone can help that would be nice!",
+      "location": null,
+      "price_or_budget": null,
+      "availability_or_move_in": "starting in June",
+      "room_type": "2 bedroom",
+      "contact_info": null,
+      "date_or_time_posted": "5d",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Hope Deel Lester",
+      "post_kind": "offering_room",
+      "post_text": "I have a 2br/1.5ba available for lease takeover in Cary. Message me if interested.",
+      "location": "Cary",
+      "price_or_budget": null,
+      "availability_or_move_in": "available for lease takeover",
+      "room_type": "2 bedroom 1.5 bathroom",
+      "contact_info": "Message me if interested",
+      "date_or_time_posted": "5d",
+      "constraints_or_preferences": [],
+      "confidence": 0.85
+    },
+    {
+      "author_name": "Kevin Dai",
+      "post_kind": "offering_room",
+      "post_text": "I have a house that is located in raleigh its 10 minutes from downtown. I have 2 rooms available. 1 with a shared bathroom the other comes with private bathroom. Current tenant is a female. Message me for me details!",
+      "location": "Raleigh 10 minutes from downtown",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "2 rooms, one shared bathroom, one private bathroom",
+      "contact_info": "Message me for details",
+      "date_or_time_posted": "3d",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Caitlyn Ferretti",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for Room/Roommates (May Move-In)! Hi everyone! I’m currently looking for a room or a roommate in downtown Raleigh (open to nearby areas as well, but would love something walkable with things to do). My budget is around $900 - $1,200! My current lease ends at the end of May, so I’m hoping to start something around then.",
+      "location": "downtown Raleigh or nearby",
+      "price_or_budget": "$900 - $1,200",
+      "availability_or_move_in": "May",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": "6d",
+      "constraints_or_preferences": [
+        "walkable area"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "author_name": "BrilliantSeal7957",
+      "post_kind": "looking_for_room",
+      "post_text": "Looking for a lease take over beginning 05/01 open to 2BD/2B or 1BD/1B near NCSU",
+      "location": "near NCSU",
+      "price_or_budget": null,
+      "availability_or_move_in": "starting 05/01",
+      "room_type": "2 bed 2 bath or 1 bed 1 bath",
+      "contact_info": null,
+      "date_or_time_posted": "4d",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Natasha Salas",
+      "post_kind": "offering_room",
+      "post_text": "One bed one bath available for lease takeover asap. In downtown raleigh",
+      "location": "downtown Raleigh",
+      "price_or_budget": null,
+      "availability_or_move_in": "ASAP",
+      "room_type": "1 bed 1 bath apartment",
+      "contact_info": null,
+      "date_or_time_posted": "3d",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Jennifer Gaspar",
+      "post_kind": "looking_for_roommate",
+      "post_text": "Looking for Female Roommates!! Hi everyone! My name is Jenny and my good friend Raina and I are looking for future roommates! We are looking at campus crossing, either a 3x3 (around $820/month) or a 4x4 (around $810/month) with both including utilities! We are looking at something fully furnished, and campus crossing also includes a shuttle that could take us to campus! We are looking preferably for female roommates who are LGBTQ+ friendly and who can overall keep a shared spa…",
+      "location": "Campus Crossing",
+      "price_or_budget": "$810 to $820 per month including utilities",
+      "availability_or_move_in": null,
+      "room_type": "3 bed 3 bath or 4 bed 4 bath",
+      "contact_info": null,
+      "date_or_time_posted": "6w",
+      "constraints_or_preferences": [
+        "female roommates",
+        "LGBTQ+ friendly",
+        "fully furnished",
+        "shared space clean"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Lightskinn Jones",
+      "post_kind": "looking_for_room",
+      "post_text": "Hey everyone. I’m looking to move mid May. I’m looking for a 2 bedroom 2 bath but will settle for 1 bathroom. It’ll be my spouse, my younger brother and myself. Pet friendly. Raleigh area. Any suggestions?!",
+      "location": "Raleigh area",
+      "price_or_budget": null,
+      "availability_or_move_in": "mid May",
+      "room_type": "2 bedroom 2 bath or 1 bath",
+      "contact_info": null,
+      "date_or_time_posted": "4d",
+      "constraints_or_preferences": [
+        "pet friendly"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Hope Deel Lester",
+      "post_kind": "offering_room",
+      "post_text": "We have a lease takeover available for 2br/1.5ba in Cary. Nice residential neighborhood. Message me if interested in details.",
+      "location": "Cary",
+      "price_or_budget": null,
+      "availability_or_move_in": null,
+      "room_type": "2 bedroom 1.5 bathroom",
+      "contact_info": "Message me if interested",
+      "date_or_time_posted": "4d",
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Maximilien Vitale",
+      "post_kind": "offering_room",
+      "post_text": "Signature 1505 Summer Lease Takeover – May 2026 TO JULY 2026 Prime location – Across from NC State Campus (Hillsborough Street)",
+      "location": "Across from NC State Campus (Hillsborough Street)",
+      "price_or_budget": null,
+      "availability_or_move_in": "May 2026 to July 2026",
+      "room_type": null,
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [],
+      "confidence": 0.9
+    },
+    {
+      "author_name": "Johnny Heidt",
+      "post_kind": "offering_room",
+      "post_text": "FOR RENT – $3,600/month | North Raleigh Fully updated 4 bed / 3 bath home in a quiet neighborhood. Over 2,000 sq ft with a modern kitchen, quartz countertops, and open living space. The split-level layout gives you multiple hangout areas, including a bonus space with a pool table already in place.",
+      "location": "North Raleigh",
+      "price_or_budget": "$3,600/month",
+      "availability_or_move_in": null,
+      "room_type": "4 bed / 3 bath home",
+      "contact_info": null,
+      "date_or_time_posted": null,
+      "constraints_or_preferences": [
+        "quiet neighborhood"
+      ],
+      "confidence": 0.95
+    }
+  ]
+}
